@@ -1,0 +1,454 @@
+@import '../templete/maincolor.less';
+
+// 搜索页公共列表 common-Exhibition
+// @titleColor:#1B2641 ;
+// @listColor: #7D879F  ;
+// @titleSize: 20px;
+// @boderColor:#e7e7e7;
+// @clickColor:#FF4611 ;
+// @color:#FF4611 ;
+// @timeColor:#ffd43f;
+.timecolor{
+    color:@timeColor ;
+}
+// 免费页面
+.free-countDown{
+    width:100%;
+    min-width:1200px;
+    height:544px;
+    background: url(../../img/page/bac.png) no-repeat;
+    background-size:100% 100%;
+    padding-top:180px;
+    padding-left: 790px;
+
+}
+.freTime{
+       
+      width:1100px;
+       background: url('../../img/page/bacword.png') no-repeat top right;
+       background-size:280px auto;
+    //    background-position:650px 0; 
+       text-align: right;
+       padding: 100px 0 30px 0;
+      
+       span{
+           font-size:30px;
+           display: inline-block;
+       }
+      .day{
+          font-size:35px;
+          color:@timeColor ;
+          padding: 6px 10px;
+          background-color: transparent;
+      }
+      .timetext{
+          font-size: 20px;
+          color:@timeColor ;
+      }
+      .hours, .sec , .min{
+           padding: 6px 10px;
+           color: @titleColor; 
+           background-color: @timeColor;
+           border-radius: 50%;
+      }
+      .semicolon{
+          color:@timeColor;
+      }
+  }
+.freeWrap{
+    margin-top:-450px;
+}
+
+
+
+// 标签分类页面
+.labelClassWrap{
+    .labelMark{
+        overflow: hidden;
+        padding-bottom:25px;
+        position: relative;
+        .fltitle{
+            // float: left;
+            position: relative;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .btn-group{
+            overflow: hidden;
+            padding-left: 10px;
+            
+            a{
+                display: inline-block;
+                height: 30px;
+                line-height: 30px;
+                // background-color: #E7E7E7 ;
+                margin:0 10px 10px 0;
+                // border:1px solid @boderColor;
+                outline: none;
+                border-radius: 4px;
+                padding: 0 6px;
+                font-size:14px;
+                cursor: pointer;
+                // &:hover{
+                //     border-color:@color;
+                //     color:@color;
+                //     background-color:#fff;
+                // }
+            }
+
+            
+        }
+        .labelShowHide{
+            display: block;
+            width:65px;
+            height: 30px;
+            line-height: 30px;
+            background-color: red;
+            text-align: center;
+            position: absolute;
+           top:0;
+            right:20px;
+            cursor: pointer;
+            font-size:14px;
+        }
+        .labelshow{
+            background: url(../../img/page/label-button-spread.png) no-repeat right center;
+            // background-size:15px 15px;
+        }
+        .labelhide{
+            background: url(../../img/page/label-button-close.png) no-repeat right center;
+        }
+    }
+    
+}
+
+
+
+
+// 作者详情页
+.Division{
+    height: 10px;
+}
+.authorDetailWrap{
+    .commonTitle{
+       
+		border-bottom: 1px solid @boderColor;
+    }
+    .common-Exhibition{
+        padding: 0 30px;
+        .commonTitle{
+            padding: 0;
+        }
+        ul{
+            li{
+                padding:38px 0 28px;
+            }
+        }
+    }
+
+
+}
+
+
+.author-detail{
+    height:296px;
+    background: url(../../img/page/user-bac.png) no-repeat;
+    background-size:100% 100%;
+    padding:30px 20px 0;
+    color:#fff ;
+    text-align: center;
+    a{
+        color:#fff ;
+        margin: 0 auto;
+    }
+    .author-portrait{
+        display: block;
+        width:97px;
+        height: 97px;
+        border-radius: 50%;
+        overflow: hidden;
+        border:2px solid #fff;
+     
+        img{
+            width:100%;
+            height: 100%;
+        }
+    }
+    p{
+        margin:10px auto;
+    }
+    .author-message{
+        padding-left: 48px;
+        a,span{
+            display: inline-block
+        }
+        a{
+            padding: 0 25px;
+            border-right:1px solid #fff ;
+            text-align: left;
+            .bigfont{
+                font-size:18px;
+            }
+            .smallfont{
+                font-size: 12px;
+            }
+            &:last-child{
+                border:none;
+            }
+        }
+       
+    }
+}
+
+
+// 书库页
+
+.stackRoomWrap{
+    .common-Exhibition{
+        .titleTab{
+            text-align: left;
+        }
+        ul{
+            li{
+                width:50%;
+                float: left;
+                border:none;
+                .commom-description{
+                    width:100%;
+                    .d-author{
+                        width:99%;
+                    }
+                    .CS-descript{
+                        min-height: 40px;
+                        margin-bottom: 5px;
+                    }
+                }
+                .titlelable{
+                    .title{
+                        width:auto;
+                        max-width: 250px;
+                    }
+                    
+                }
+                p:last-child{
+                    span{
+                        display: block;
+                        width:100%;
+                        overflow: hidden;
+                        text-overflow:ellipsis;
+                        white-space: nowrap;
+                        font-size:12px;
+                    }
+                     a{
+                        display: block;
+                        width:100%;
+                        overflow: hidden;
+                        text-overflow:ellipsis;
+                        white-space: nowrap;
+                        font-size:12px;
+                    }
+                    // span:first-child{
+                        
+                    // }
+                }
+            }
+        }
+    }
+
+}
+
+
+// 排行榜  ---分榜
+
+.ranklistWrap{
+    .common-section-title{
+        img{
+            width:24px;
+            height: 28px;
+            margin-top:15px;
+            margin-right: 5px;
+        }
+    }
+
+    .common-Exhibition{
+        .common-section-title{
+            border:none;
+            height: auto;
+            .titleTab{
+                text-align: left;
+                font-size:14px;
+            }
+           
+        }
+        .commom-description{
+            .Scover{
+                position: relative;
+                span{
+                    position: absolute;
+                    top:0;
+                    left:0;
+                    color:#fff;
+                    font-size:14px;
+                    width:37px;
+                    height: 17px;
+                    line-height: 17px;
+                    text-align: center;
+                    background: url(../../img/page/list-label.png) no-repeat;
+                    background-size:100%;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+// 总排行  
+.rankTotalWrap{
+    // padding-top:20px;
+    .getOnTheList{
+        ol{
+            li{
+                // width:287px;
+                .commonTitle{
+                    // background: url(../../img/page/list-label-big.png) no-repeat;
+                    // background-size:100% auto;
+                    // color:#fff;
+                }
+                .top{
+                    border-color:@boderColor;
+                    ul li .author {
+                        width:30%;
+                        
+                    }
+                }
+               
+            }
+
+        }
+    }
+}
+.rankTotalWrap .getOnTheList ol>li{
+    width:296.66px;
+    // margin-left: 10px;
+    margin-bottom: 35px;
+    position: relative;
+    .top10{
+        display: inline;
+        font-size:16px;
+        color:@titleColor;
+        position: absolute;
+        right:20px;
+        top:25px;
+    }
+    &:nth-child(3){
+        .top{
+            border:none;
+        }
+    }
+    &:nth-child(6){
+        .top{
+            border:none;
+        }
+    }
+}
+
+
+//404页面
+
+.errorlWrap{
+    margin-top:0;
+    .index-section{
+        overflow: hidden;
+        background-color: #fff ;
+    }
+    .error{
+        position: relative;
+        text-align: center;
+        padding: 20px 0 30px;
+      
+        img{
+            width:300px;
+            height: 185px;
+        }
+        div{
+            display: inline-block;
+            vertical-align: top;
+            // text-align: center;
+            margin-top:56px;
+            .title{
+                font-size:30px;
+                color: #3B5786;
+                margin-bottom: 50px;
+            }
+            // .reloaded{
+            //     margin:15px auto 10px;
+            //     display: block;
+            //     width:145px;
+            //     height: 45%;
+            //     text-align: center;
+            //     line-height: 45px;
+            //     border: 1px solid #3B5786 ;
+            //     border-radius: 22px;
+            //     font-size: 18px;
+            // }
+            a{
+                font-size: 14px;
+                display: inline-block;
+                margin:0 10px;
+            }
+        }
+    }
+    .Guesslike{
+        padding: 0 20px;
+        .commonTitle{
+            border-bottom:1px solid @boderColor;
+        }
+        .Prerelease{
+            ul{
+                li{
+                    margin:30px 30.2px;
+                }
+            }
+        }
+    }
+    .scanCode{
+        width:290px;
+        text-align: center;
+        img{
+            width:290px;
+        }
+        // .commonTitle{
+        //     font-size: 16px;
+        //     margin-bottom: 0;
+        // }
+        // p{
+        //     margin-bottom:10px;
+        //     img{
+               
+        //         width: 150px;
+        //         height: 150px;
+        //     }
+        // }
+        // span{
+        //     display: inline-block;
+        //     width:109px;
+        //     margin:10px;
+        //     img{
+        //         width:100%;
+        //         height: 109px;
+        //      }
+        // }
+       
+    }
+
+
+
+}
+
+
+
+
+
+

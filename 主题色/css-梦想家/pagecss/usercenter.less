@@ -1,0 +1,314 @@
+@import '../templete/maincolor.less';
+
+// @textcolor:#7D879F ;
+// @titleColor:#1B2641 ;
+// @listColor: #7D879F  ;
+// @titleSize: 20px;
+// @boderColor:#e7e7e7;
+// // @clickColor:#ff5c4d ; 
+// // @color:#ff5c4d ; 
+// @boderColor:#e7e7e7;
+// @boderNewC:#29A3F1 ;
+
+.userCenter{
+    table{
+        tr{
+            a{
+                &:hover{
+                    color:@listColor;
+                }
+            }
+        }
+    }
+   .asideBar{
+       width:191px;
+       a{
+           font-size: 14px;
+       }
+   }
+   .authorMessage{
+    width:995px;
+    min-height: 200px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    .messageBox{
+        width:515px;
+        height: 200px;
+        margin:0px auto 0;
+        overflow:  hidden;
+        padding-top: 55px;
+        img{
+            width:95px;
+            height: 95px;
+            border-radius: 50%;
+        }
+        .msg{
+            padding:10px 0 0 20px;
+        
+            p{
+                font-size: 16px;
+            }
+            .userID{
+                color:@listColor;
+                font-size:14px;
+            }
+            .acount{
+                margin-top:10px;
+                span{
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+   }
+    .common-section-left{
+        width:995px;
+        padding-bottom: 30px;  
+    }
+    // 最近阅读
+    .latestReading{
+        ul{
+            overflow: hidden;
+            li{
+                width:50%;
+                float: left;
+                overflow: hidden;
+                border-bottom: 1px solid @boderColor;
+                .commom-description{
+                    width:100%;
+                    overflow: hidden;    
+                    .des-right{
+                        padding-top: 0;
+                    }     
+                    .texthide{
+                        width:100%;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                    .authorSize{
+                        span{
+                            display:block;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap ;
+                            // font-size: 12px;
+                        }
+                    }
+                    
+                    .d-author{
+                        margin:0px 0 5px 0;
+                    }
+                    .midBtn{
+                        margin-top:3px;
+                        margin-bottom: 0;
+                        height: 30px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    // 充值记录
+    .reRecording{
+    }
+
+    // 我的书架
+    .deleArea{
+        padding:15px;
+        .deleBtn{
+            font-size: 14px;
+           
+            label{
+            min-height: 20px;
+            }
+            button{
+                width:45px;
+                height: 25px;
+                color:#fff;
+                background-color: @color;
+                border:none;
+                outline: none;
+                border-radius: 4px;
+                margin-left: 35px;
+                cursor: pointer;
+            }
+        }
+    }
+    .mybookshelf{
+        .latesting{
+            margin-top: 38px;
+        }
+        .dele{
+            display: block;
+            width:108px;
+            height: 35px;
+            line-height: 35px;
+            text-align: center;
+            color:#fff;
+            border-radius: 4px;
+            background-color: @listColor;
+        }
+        li{
+            padding: 25px 30px 25px 15px;
+            border-bottom: 1px solid @boderColor;
+            label{
+                height: 25px;
+                padding-left: 35px;
+                vertical-align: middle;
+                margin-top:60px;
+            }
+        }
+    }
+
+    // 充值中心
+    .vouchercenterWrap{
+        background-color: #fff;
+        .authorMessage{
+            width:100%;
+            margin-bottom: 0;
+            .messageBox{
+                width:800px;
+            }
+            .goPay{
+                background-color: @titleColor;
+            }
+        }
+
+        .payWays{
+            width:800px;
+            min-height: 200px;
+            margin: 0 auto;
+            font-size: 14px;
+            color:@titleColor;
+            padding-bottom: 150px;
+            .title{
+                margin:25px 0 20px;
+            }
+            .ways{
+                overflow: hidden;
+                li{
+                    width:135px;
+                   padding:5px 10px;
+                    text-align: center;
+                    float: left;
+                    margin-right: 30px;
+                    cursor: pointer;
+                    img{
+                        width:33px;
+                        height: 33px;
+                        margin-right: 5px;
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .tips{
+                margin: 50px 0 20px;
+                span{
+                    margin-right: 18px;
+                }
+            }
+            .amount{
+                overflow: hidden;
+                // margin-bottom: 
+                li{
+                    float: left;
+                    width:240px;
+                    height: 45px;
+                    line-height: 45px;
+                    text-align: center;
+                    margin:0 25px 25px 0;
+                   cursor: pointer;
+                }
+
+            }
+            .money{
+                font-size: 18px
+            }
+            .bigBtn{
+                margin: 40px 0 25px;
+            }
+            .definedBox{
+                display: none;
+                .defineInput{
+                    input{
+                        width:95px;
+                        height: 30px;
+                        border-radius: 4px;
+                        border:1px solid @boderColor;
+                        padding: 0 5px;
+                        font-size:16px;
+                        text-align: center;
+                        margin-bottom: 15px;
+                    }
+                }
+
+            }
+        }
+
+
+    }
+}
+
+
+
+.tbbg{
+    background-color: #F8F8FA ;
+}
+
+.no-datas{
+    text-align:center;
+    font-size:14px;
+    padding: 40px 0;
+    img{
+        height: 172px;
+    }
+}
+
+//充值按钮
+.goPay{
+    display: block;
+    color:#fff;
+    background-color: @color;
+    width:120px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top:20px;
+}
+
+
+.labelnocheck{
+    padding-left:25px;
+    display: inline-block;
+    background: url(../../img/index/read-icon-selected-nor.png) no-repeat;
+    background-size: 20px 20px;
+
+}
+
+.labelcheck{
+    padding-left:25px;
+    display: inline-block;
+    background: url(../../img/index/read-icon-selected-sel.png) no-repeat;
+    background-size: 20px 20px;
+}
+
+
+// 充值方式
+.noPay{
+    border: 1px solid @boderColor;
+}
+
+.activePay{
+    border: 1px solid @color;
+    background: url(../../img/index/user-icon-sel.png) no-repeat right bottom;
+    background-size:20px 20px;
+    
+}
+
+
+
+

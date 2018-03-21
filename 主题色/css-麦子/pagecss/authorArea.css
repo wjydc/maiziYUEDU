@@ -1,0 +1,679 @@
+.authorloginRe {
+  padding-bottom: 100px;
+}
+.authorloginRe .index-section {
+  margin-bottom: 10px;
+}
+.authorloginRe .commonTitle {
+  border-bottom: 1px solid #e7e7e7;
+  padding-right: 20px;
+}
+.authorloginRe .Notice {
+  background-color: #fff;
+  height: 302px;
+}
+.authorloginRe .Notice .bookList {
+  margin-top: 20px;
+}
+.authorloginRe .Notice .bookList li {
+  margin-bottom: 16.5px;
+}
+.authorloginRe .Notice .bookList li p a {
+  width: 100%;
+  color: #1B2641;
+}
+.authorloginRe .Notice .bookList li p a:hover {
+  color: #ff5c4d;
+}
+.authorloginRe .Notice .bookList li:last-child {
+  margin-bottom: 20px;
+}
+.authorloginRe .onTheWay {
+  text-align: center;
+  padding: 50px 0  40px;
+}
+.authorloginRe .loginBox {
+  width: 100%;
+  height: 555px;
+  background: url(../../img/index/banner.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.authorloginRe .loginBox .loginRegister {
+  height: 535px;
+  margin-right: 50px;
+  padding: 20px 0 0;
+}
+.authorloginRe .loginBox .loginRegister .inputBox {
+  height: 455px;
+}
+.authorloginRe .loginBox .loginRegister .inputBox .Sign {
+  display: block;
+  height: 105px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ff5c4d;
+  overflow: hidden;
+  padding: 0 40px;
+}
+.authorloginRe .loginBox .loginRegister .inputBox .Sign img {
+  height: 100%;
+  float: left;
+  position: relative;
+}
+.authorloginRe .loginBox .loginRegister .inputBox .Sign .signRight {
+  overflow: hidden;
+  color: #fff;
+  font-size: 14px;
+  margin-top: 15px;
+  padding: 0 10px;
+}
+.authorloginRe .loginBox .loginRegister .inputBox .Sign .signRight .title {
+  font-size: 20px;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode {
+  font-size: 12px;
+  color: #29A3F1 ;
+  margin-top: 10px;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode input,
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode span {
+  display: inline-block;
+  vertical-align: top;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode input {
+  width: 100px;
+  margin-top: 0;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode span {
+  height: 50px;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode .code {
+  margin: 0 3px;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode .code img {
+  width: 96px;
+  height: 100%;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode .update {
+  cursor: pointer;
+  line-height: 50px;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode .codeYes {
+  padding-top: 13px;
+  margin-left: 3px;
+  float: right;
+}
+.authorloginRe .loginBox .loginRegister .register form .VerificationCode .codeYes img {
+  width: 24px;
+  height: 24px;
+}
+.authorloginRe .loginBox .loginRegister .register form .submit {
+  margin: 20px 0 10px;
+}
+.hasReading {
+  color: #7D879F;
+  font-size: 14px;
+}
+.hasReading label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin: -3px 5px 0 0;
+  border: 1px solid #c4c4c4;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.hasReading .yes {
+  background: url(../../img/index/read-icon-selected-sel.png) no-repeat;
+  background-size: 100% 100%;
+}
+.authorArea .asideBar {
+  width: 110px;
+}
+.authorArea .common-section-title .tips {
+  font-size: 14px;
+  color: #7D879F;
+  left: 10px;
+  padding-top: 2px;
+}
+.authorArea .common-section-left {
+  width: 1075px;
+}
+.myIncome .moneyStatistics {
+  position: relative;
+}
+.myIncome .moneyStatistics .calendar {
+  width: 238px;
+  height: 35px;
+  border: 1px solid #7D879F;
+  border-radius: 17px;
+  overflow: hidden;
+  position: absolute;
+  top: 12px;
+  right: 20px;
+}
+.myIncome .moneyStatistics .calendar p,
+.myIncome .moneyStatistics .calendar span {
+  display: inline-block;
+}
+.myIncome .moneyStatistics .calendar .calendarInput {
+  width: 170px;
+  height: 100%;
+  cursor: pointer;
+}
+.myIncome .moneyStatistics .calendar .calendarInput input {
+  width: 165px;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.myIncome .moneyStatistics .calendar .calendarInput .Wdate {
+  background: url(../../img/index/author-icon-calendar.png) no-repeat right center;
+  background-size: 20px 20px;
+}
+.myIncome .moneyStatistics .calendar .calendarInput img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+.myIncome .moneyStatistics .calendar .btn {
+  width: 65px;
+  height: 100%;
+  line-height: 32px;
+  text-align: center;
+  background-color: #1B2641;
+  color: #fff;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+  cursor: pointer;
+}
+.myIncome .moneyStatistics .calendar .btn:hover {
+  background-color: #080808 ;
+}
+.myIncome .totalMoney {
+  font-size: 18px;
+  text-align: right;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+.myIncome .totalMoney span {
+  font-size: 30px;
+}
+table tr td {
+  color: #7D879F;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.basicMessage .common-section-title span,
+.basicMessage .common-section-title i {
+  display: inline-block;
+}
+.basicMessage .common-section-title i {
+  margin: 0 20px;
+}
+.basicMessage .common-section-title span {
+  cursor: pointer;
+}
+.basicMessage .message .picture {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  cursor: pointer;
+  margin: 30px auto 0;
+}
+.basicMessage .message .picture img {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.basicMessage .message .picture .change {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
+}
+.basicMessage .message .picture .change .backbg {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #1B2641;
+  opacity: 0.6;
+}
+.basicMessage .message .picture .change .backWord {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 125px;
+  z-index: 10;
+}
+.basicMessage .submit {
+  padding: 30px 190px;
+}
+.brief {
+  display: inline-block;
+  width: 590px;
+  height: 130px;
+  border: 1px solid #e7e7e7;
+  background-color: #E7E7E7 ;
+  padding: 10px;
+  margin-right: 0;
+  vertical-align: top;
+}
+.brief textarea {
+  width: 100%;
+  display: block;
+  height: 90px;
+  background-color: #E7E7E7 ;
+  border: none;
+  resize: none;
+  outline: none;
+  color: #7D879F;
+}
+.brief i {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
+.brief i em {
+  font-style: normal;
+}
+.blue {
+  color: #29A3F1 ;
+}
+.red {
+  color: #ff5c4d;
+}
+.myBook table th {
+  border-bottom: 1px solid #e7e7e7;
+}
+.myBook table td {
+  border-bottom: 1px solid #e7e7e7;
+}
+.ManagerBook .common-section-left {
+  padding: 0 30px;
+}
+.ManagerBook .common-section-left .common-section-title {
+  padding-left: 0;
+}
+.ManagerBook .common-section-left .common-section-title .pageMark {
+  margin: 0;
+}
+.ManagerBook .common-section-left .common-section-title .pageMark span,
+.ManagerBook .common-section-left .common-section-title .pageMark i {
+  display: inline-block;
+}
+.ManagerBook .common-section-left .common-section-title .titleTab a {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+.ManagerBook .common-section-left .commom-description {
+  padding-top: 30px;
+  position: relative;
+}
+.ManagerBook .common-section-left .commom-description .NoPublish {
+  display: block;
+  width: 240px;
+  height: 50px;
+  background-color: #1B2641;
+  opacity: 0.8;
+  color: #fff;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  top: 300px;
+  z-index: 100;
+}
+.ManagerBook .common-section-left .commom-description .des-right {
+  padding-left: 20px;
+}
+.ManagerBook .common-section-left .commom-description .largeImageSize {
+  width: 240px;
+  height: 320px;
+}
+.ManagerBook .common-section-left .commom-description .bookLabel {
+  margin-bottom: 20px;
+}
+.ManagerBook .common-section-left .commom-description .bookLabel a {
+  display: inline-block;
+  background-color: #e7e7e7;
+  margin-right: 10px;
+  font-size: 12px;
+  padding: 2px 5px;
+  color: #7D879F;
+  border-radius: 4px;
+}
+.ManagerBook .common-section-left .commom-description .chBtn {
+  display: block;
+  width: 100px;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  color: #fff;
+  background-color: #1B2641;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.ManagerBook .common-section-left .commom-description .Notice {
+  border-top: 1px solid #e7e7e7;
+  padding-top: 30px;
+  font-size: 14px;
+}
+.ManagerBook .common-section-left .commom-description .Notice .brief {
+  background-color: #fff;
+  border: 1px solid #e7e7e7;
+  color: #7D879F;
+  height: 90px;
+  padding: 5px 10px  10px;
+}
+.ManagerBook .common-section-left .commom-description .Notice textarea {
+  background-color: #fff;
+  height: 55px;
+}
+.ManagerBook .common-section-left .commom-description .submit {
+  padding: 30px 0;
+}
+.ManagerBook .common-section-left .commom-description .submit button {
+  margin-bottom: 0;
+}
+.ManagerBook table tr th {
+  border-bottom: 1px solid #e7e7e7;
+}
+.hasOperate td a {
+  display: inline-block;
+  width: 80px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+.hasOperate td a:hover {
+  color: #fff;
+}
+.hasOperate td .manger {
+  background-color: #29A3F1 ;
+}
+.hasOperate td .creat {
+  background-color: #ff5c4d;
+}
+.titleInit {
+  color: #7D879F;
+  border-bottom: 3px solid transparent;
+}
+.titleActive {
+  color: #1B2641;
+  border-bottom: 3px solid #1B2641;
+}
+form ul li {
+  padding: 30px 190px;
+  font-size: 14px;
+  border-bottom: 1px solid #e7e7e7;
+}
+form ul li .title {
+  display: inline-block;
+  font-size: 16px;
+  color: #1B2641;
+  padding: 10px;
+  border-bottom: 2px solid #1B2641;
+}
+form ul li p {
+  margin: 25px 0;
+}
+form ul li p label {
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+form ul li p input[type=text],
+form ul li p input[type=password],
+form ul li p select {
+  width: 265px;
+  height: 37px;
+  border: 1px solid #e7e7e7;
+  background-color: #E7E7E7 ;
+  padding: 0 10px;
+  color: #7D879F;
+}
+form ul li p select {
+  margin-left: -4px;
+}
+form ul li p select option {
+  background-color: #fff ;
+}
+form ul li p span {
+  margin-right: 50px;
+}
+form ul li p span input[type=radio] {
+  vertical-align: middle;
+}
+form ul li button {
+  margin-right: 30px;
+}
+form ul li .tips {
+  display: block;
+  padding-left: 100px;
+}
+.changePassword form .view {
+  position: relative;
+}
+.changePassword form .view input {
+  padding-right: 35px;
+}
+.changePassword form .view i {
+  display: block;
+  width: 30px;
+  height: 37px;
+  position: absolute;
+  top: 0;
+  left: 330px;
+  cursor: pointer;
+}
+.noView {
+  background: url(../../img/index/author-icon-eye-clo.png) no-repeat center center;
+  background-size: 25px 13px;
+}
+.canView {
+  background: url(../../img/index/author-icon-eye.png) no-repeat center center;
+  background-size: 25px 13px;
+}
+.pictureMask {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.pictureMask .masking {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1B2641;
+  opacity: 0.6;
+  z-index: 15;
+}
+.changeMess {
+  position: absolute;
+  width: 475px;
+  height: 475px;
+  border: 1px solid #e7e7e7;
+  top: 50%;
+  left: 50%;
+  margin-top: -237px;
+  margin-left: -237px;
+  background-color: #fff;
+  z-index: 20;
+  cursor: pointer;
+}
+.changeMess .reloadup {
+  padding: 50px 50px 0;
+}
+.changeMess .reloadup .image span {
+  display: inline-block;
+}
+.changeMess .reloadup .image .big {
+  width: 218px;
+  height: 218px;
+  background-color: #7D879F;
+  color: #fff;
+}
+.changeMess .reloadup .image .big img {
+  width: 100%;
+  height: 100%;
+}
+.changeMess .reloadup .image .small {
+  width: 124px;
+  height: 124px;
+  border-radius: 50%;
+  vertical-align: top;
+  margin-left: 25px;
+  background-color: #7D879F;
+}
+.changeMess .reloadup .image .small img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.changeMess .reloadup .btnTips {
+  margin: 22px 0 45px;
+  font-size: 14px;
+}
+.changeMess .reloadup .btnTips span {
+  margin-right: 20px;
+}
+.submit button {
+  display: inline-block;
+  margin: 10px 15px 100px 0;
+}
+.changeMessage .changeContent {
+  position: relative;
+}
+.changeMessage .changeContent .bookCovering {
+  position: absolute;
+  top: 45px;
+  right: 0;
+}
+.changeMessage .changeContent .bookCovering img {
+  width: 240px;
+  height: 320px;
+}
+.changeMessage .changeContent form li {
+  padding: 20px 0;
+}
+.changeMessage .changeContent form .shortDescribe .brief {
+  height: 37px;
+  padding: 0;
+  overflow: hidden;
+}
+.changeMessage .changeContent form .shortDescribe .brief .personalBrief {
+  display: inline-block;
+  width: 500px;
+  height: 37px;
+  line-height: 37px;
+  padding: 0 10px 0 5px;
+  float: left;
+}
+.changeMessage .changeContent form .shortDescribe .brief i {
+  display: inline-block;
+  vertical-align: top;
+  margin: 15px 5px 0 0;
+  float: right;
+}
+.changeMessage .changeContent form .longDescribe .brief {
+  height: 250px;
+}
+.changeMessage .changeContent form .longDescribe .brief textarea {
+  height: 200px;
+}
+.changeMessage .submit {
+  padding: 30px 0;
+}
+.UploadCover label {
+  display: inline-block;
+  width: 100px;
+}
+.UploadCover p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+.UploadCover .coverImageBox {
+  width: 160px;
+  height: 160px;
+  background-color: #E7E7E7 ;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.UploadCover .coverImageBox span {
+  display: block;
+  margin: 10px 10px;
+}
+.UploadCover .coverImageBox .add {
+  margin-top: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #1B2641;
+  color: #fff ;
+  margin: 30px auto 0;
+  line-height: 30px;
+  text-align: center;
+  font-size: 25px;
+}
+.UploadCover .coverImageBox img {
+  width: 100%;
+  height: 100%;
+}
+.UploadCover .arrow {
+  font-size: 50px;
+  margin: 50px 20px 0;
+  color: #ff5c4d;
+}
+.cladanerIcon {
+  display: inline-block;
+  vertical-align: top;
+  width: 20px;
+  height: 37px;
+  background: url(../../img/index/author-icon-calendar.png) no-repeat center center;
+  background-size: 20px 20px;
+  margin-left: 3px;
+}
+.shortText .changeContent form .longDescribe .brief {
+  height: 100px;
+}
+.shortText .changeContent form .longDescribe .brief textarea {
+  height: 60px;
+}

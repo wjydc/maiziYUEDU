@@ -1,0 +1,249 @@
+.userCenter table tr a:hover {
+  color: #7D879F;
+}
+.userCenter .asideBar {
+  width: 191px;
+}
+.userCenter .asideBar a {
+  font-size: 14px;
+}
+.userCenter .authorMessage {
+  width: 995px;
+  min-height: 200px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+.userCenter .authorMessage .messageBox {
+  width: 515px;
+  height: 200px;
+  margin: 0px auto 0;
+  overflow: hidden;
+  padding-top: 55px;
+}
+.userCenter .authorMessage .messageBox img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+}
+.userCenter .authorMessage .messageBox .msg {
+  padding: 10px 0 0 20px;
+}
+.userCenter .authorMessage .messageBox .msg p {
+  font-size: 16px;
+}
+.userCenter .authorMessage .messageBox .msg .userID {
+  color: #7D879F;
+  font-size: 14px;
+}
+.userCenter .authorMessage .messageBox .msg .acount {
+  margin-top: 10px;
+}
+.userCenter .authorMessage .messageBox .msg .acount span {
+  font-size: 24px;
+}
+.userCenter .common-section-left {
+  width: 995px;
+  padding-bottom: 30px;
+}
+.userCenter .latestReading ul {
+  overflow: hidden;
+}
+.userCenter .latestReading ul li {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  border-bottom: 1px solid #e7e7e7;
+}
+.userCenter .latestReading ul li .commom-description {
+  width: 100%;
+  overflow: hidden;
+}
+.userCenter .latestReading ul li .commom-description .des-right {
+  padding-top: 0;
+}
+.userCenter .latestReading ul li .commom-description .texthide {
+  width: 100%;
+}
+.userCenter .latestReading ul li .commom-description p {
+  font-size: 14px;
+}
+.userCenter .latestReading ul li .commom-description .authorSize span {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap ;
+}
+.userCenter .latestReading ul li .commom-description .d-author {
+  margin: 0px 0 5px 0;
+}
+.userCenter .latestReading ul li .commom-description .midBtn {
+  margin-top: 3px;
+  margin-bottom: 0;
+  height: 30px;
+  line-height: 30px;
+}
+.userCenter .deleArea {
+  padding: 15px;
+}
+.userCenter .deleArea .deleBtn {
+  font-size: 14px;
+}
+.userCenter .deleArea .deleBtn label {
+  min-height: 20px;
+}
+.userCenter .deleArea .deleBtn button {
+  width: 45px;
+  height: 25px;
+  color: #fff;
+  background-color: #ee0c15;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+.userCenter .mybookshelf .latesting {
+  margin-top: 38px;
+}
+.userCenter .mybookshelf .dele {
+  display: block;
+  width: 108px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  background-color: #7D879F;
+}
+.userCenter .mybookshelf li {
+  padding: 25px 30px 25px 15px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.userCenter .mybookshelf li label {
+  height: 25px;
+  padding-left: 35px;
+  vertical-align: middle;
+  margin-top: 60px;
+}
+.userCenter .vouchercenterWrap {
+  background-color: #fff;
+}
+.userCenter .vouchercenterWrap .authorMessage {
+  width: 100%;
+  margin-bottom: 0;
+}
+.userCenter .vouchercenterWrap .authorMessage .messageBox {
+  width: 800px;
+}
+.userCenter .vouchercenterWrap .authorMessage .goPay {
+  background-color: #1B2641;
+}
+.userCenter .vouchercenterWrap .payWays {
+  width: 800px;
+  min-height: 200px;
+  margin: 0 auto;
+  font-size: 14px;
+  color: #1B2641;
+  padding-bottom: 150px;
+}
+.userCenter .vouchercenterWrap .payWays .title {
+  margin: 25px 0 20px;
+}
+.userCenter .vouchercenterWrap .payWays .ways {
+  overflow: hidden;
+}
+.userCenter .vouchercenterWrap .payWays .ways li {
+  width: 135px;
+  padding: 5px 10px;
+  text-align: center;
+  float: left;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.userCenter .vouchercenterWrap .payWays .ways li img {
+  width: 33px;
+  height: 33px;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.userCenter .vouchercenterWrap .payWays .tips {
+  margin: 50px 0 20px;
+}
+.userCenter .vouchercenterWrap .payWays .tips span {
+  margin-right: 18px;
+}
+.userCenter .vouchercenterWrap .payWays .amount {
+  overflow: hidden;
+}
+.userCenter .vouchercenterWrap .payWays .amount li {
+  float: left;
+  width: 240px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin: 0 25px 25px 0;
+  cursor: pointer;
+}
+.userCenter .vouchercenterWrap .payWays .money {
+  font-size: 18px;
+}
+.userCenter .vouchercenterWrap .payWays .bigBtn {
+  margin: 40px 0 25px;
+}
+.userCenter .vouchercenterWrap .payWays .definedBox {
+  display: none;
+}
+.userCenter .vouchercenterWrap .payWays .definedBox .defineInput input {
+  width: 95px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #e7e7e7;
+  padding: 0 5px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.tbbg {
+  background-color: #F8F8FA ;
+}
+.no-datas {
+  text-align: center;
+  font-size: 14px;
+  padding: 40px 0;
+}
+.no-datas img {
+  height: 172px;
+}
+.goPay {
+  display: block;
+  color: #fff;
+  background-color: #ee0c15;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.labelnocheck {
+  padding-left: 25px;
+  display: inline-block;
+  background: url(../../img/index/read-icon-selected-nor.png) no-repeat;
+  background-size: 20px 20px;
+}
+.labelcheck {
+  padding-left: 25px;
+  display: inline-block;
+  background: url(../../img/index/read-icon-selected-sel.png) no-repeat;
+  background-size: 20px 20px;
+}
+.noPay {
+  border: 1px solid #e7e7e7;
+}
+.activePay {
+  border: 1px solid #ee0c15;
+  background: url(../../img/index/user-icon-sel.png) no-repeat right bottom;
+  background-size: 20px 20px;
+}

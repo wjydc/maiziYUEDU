@@ -1,0 +1,926 @@
+@import '../templete/maincolor.less';
+
+// @textcolor:#7D879F ;
+// @titleColor:#1B2641 ;
+// @listColor: #7D879F  ;
+// @titleSize: 20px;
+// @boderColor:#e7e7e7;
+// @clickColor:#ff5c4d ; 
+// @color:#ff5c4d ; 
+// @boderColor:#e7e7e7;
+// @boderNewC:#29A3F1 ;
+
+
+.first{
+    padding-top: 10px;
+    .section-right{
+        height: 460px;
+        background-color: #fff ;
+        .commonTitle{
+            margin-bottom: 18.5px;
+        }
+        .bookList{
+            li{
+                margin-bottom: 20.5px;
+            }
+        }
+    }
+}
+.first-section-left{
+    width:734px;
+    margin:0 16px 0 158px ;
+    overflow: hidden;
+    .left-top{
+        width:734px;
+        height: 341px;
+        overflow: hidden;
+        position: relative;
+        .gallery-top{
+            width:100%;
+            height: 100%;
+            overflow: hidden;
+            position: absolute;
+            left:0;
+            top:0;
+            .swiper-wrapper{
+                width: 100%;
+                height: 100%;
+                .swiper-slide{
+                    width:100%;
+                    height: 100%;
+                    overflow: hidden;
+                   .bigBookCover{
+                        float: left;
+                        width:262px;
+                        height:100%;
+                        position: relative;
+                        margin-right:9px;
+                        text-align: center;
+                        img{
+                            margin-top:15px;
+                        }
+                   }
+                    .bigBook{
+                        width:232px;
+                        height: 311px;
+                    }
+                    .top-right{
+                        width:460px;
+                        height: 338px;
+                        overflow: hidden;
+                       padding-top: 20px;
+                        position: relative;
+                        a{
+                            &:hover{
+                                color:@color;
+                            }
+                        }
+                        p{ padding:0 20px 0;}
+                        .first-title{
+                            display: block;
+                            font-size:20px;
+                            color: @titleColor;
+                            padding:0 20px 0;
+                        }
+                        .first-author{
+                            margin:20px 0;
+                            a{
+                                font-size: 14px;
+                                color:@textcolor ;
+                                &:hover{
+                                    color:@color;
+                                }
+                            }
+                            i{
+                                font-size: 14px;
+                                color:@textcolor ;
+                                margin:0 5px;
+                            }
+                            img{
+                                width:14px;
+                                height: 14px;
+                                vertical-align: middle;
+                                margin-right: 3px;
+                            }
+                        }
+                        .first-des{
+                            font-size:12px;
+                            color:@textcolor ;
+                            line-height:20px;
+                        }
+                       
+                    }
+                }
+            }
+        }
+        .gallery-thumbs{
+            width:450px;
+            height: 140px;
+            position: absolute;
+            bottom: 0;
+            right: 15px;
+            z-index:5;
+            // padding-right: 5px;
+              .swiper-wrapper{
+                  width:100%;
+                  height: 100%;
+                  .swiper-slide{
+                    width:111px;
+                    margin-right:5px;
+                  
+                        img{
+                            width:90px;
+                            height:115px;
+                            margin-top:10px;
+                            // -webkit-box-shadow:3px 3px 3px #7D879F  ;
+                            // -moz-box-shadow:3px 3px 3px #7D879F ;  
+                            // box-shadow:3px 3px 3px #7D879F  ;
+                        }
+                    
+                }
+                .swiper-slide-active{
+                    img{
+                        width:90px;
+                        height:115px;
+                        border:3px solid @color;
+                        // -webkit-box-shadow:3px 3px 5px red;
+                        // -moz-box-shadow:3px 3px 5px red  ;
+                        // box-shadow:3px 3px 5px red ;
+                    }
+                  
+                }
+                  
+              } 
+        }
+    }
+    .left-bottom{
+        width:100%;
+        height: 107px;
+        margin-top: 12px;
+        overflow: hidden;
+        div{
+            opacity: 0.9;
+           &:hover{
+               opacity: 1;
+           }
+           
+        }
+        .Sign{
+            width:362px;
+            height:100%;
+            margin-right:10px;
+            a{
+                display: block;
+               width:100%;
+                height:100%;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            // width:382px;
+            // height: 100%;
+            // background-color: #ff7b5b ;
+            // overflow: hidden;
+            // padding-top: 8px;
+            // a{
+            //     display: block;
+            //     width:330px;
+            //     margin:auto;
+            //     overflow:hidden;
+            //    color:#fff;
+            //     img{
+            //         width:70px;
+            //         height: 90px;
+            //         float: left;
+            //         position: relative; 
+            //         margin-right: 15px;
+            //     }
+            //     div{
+            //         overflow: hidden;
+            //         .title{font-size:20px;}
+            //         .des{ font-size:14px;}
+            //     }
+            // }
+        }
+        .Advertisement{
+            width:362px;
+            height: 100%;
+            a{
+                display: block;
+                width:100%;
+                height:100%;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+        }
+    }
+    
+
+
+
+}
+
+
+// 好书抢鲜
+
+.good-book{
+    height: 515px;
+    margin-top: 25px;
+}
+.secondRight{
+    height:100%;
+    background-color: #fff;
+    .bookList{
+        padding:0 15px;
+        li{
+            margin-bottom:28px;
+            p{
+                .shortDes{
+                    width:69%;
+                }
+            }
+           
+        }
+    }
+}
+// .common-section-left{
+//     width:892px;
+//     height:100%;
+//     background-color: #fff;
+//  }
+
+
+// 好书抢鲜-books
+
+
+@boderColor:#e7e7e7;
+.secondRight-middle{
+    // padding: 30px 0px 30px 30px;
+    // border-top:1px solid @boderColor;
+
+}
+
+.indexWrap{
+    .commom-description{
+        // padding: 30px 0px 30px 30px;
+    }
+    .commonTitle{
+        // border-bottom:1px solid @boderColor;
+    }
+} 
+
+
+
+// 主编力推
+.chief-Editor{
+    height:615px;
+}
+.thirdRight{
+    height:100%;
+    // background-color: #fff;
+    .section-right{
+        background-color: #fff;
+        .commonTitle{
+            border-bottom:1px solid @boderColor;
+            margin-bottom: 25px;
+        }
+    }
+    .thirdRight-top{
+        min-height: 295px;
+        margin-bottom:25px;
+        .hot-Label{
+            overflow: hidden;
+            padding-left: 10px;
+            li{
+                display: inline-block;
+                margin:0 10px 15px; 
+                border-radius:3px;
+                // min-width:55px;
+                a{  
+                    display: block;
+                    width:100%;
+                    height: 30px;
+                    line-height: 30px;
+                    border-radius:3px;
+                    padding:0 5px;
+                    text-align:center;
+                    border:1px solid @boderColor;
+                    color:@titleColor ;
+                    font-size:14px;
+                    &:hover{
+                        border:1px solid @boderNewC;
+                        color:@boderNewC;
+                    }
+                }
+                .more{
+                    color:#fff;
+                    background-color: @clickColor;
+                    &:hover{
+                        color:#fff;
+                        background-color: @clickColor;
+                        border:1px solid @boderColor;
+                    }
+                }
+            }
+        }
+    }
+    .thirdRight-bottom{
+        height: 295px;
+    }
+
+}
+
+
+.Recommend{
+    ul{
+        overflow: hidden;
+        li{
+            float: left;
+            margin:20px 34.2px 10px;
+            .Recommend-book-cover{
+                display: block;
+                width:377px;
+            }
+        }
+    }
+}
+
+// 限时免费
+
+.limitTime-free{
+    height: 385px;
+    margin-top: 25px;
+    .section-right{
+        height: 100%;
+        background: url(../../img/index/home-free.png) no-repeat;
+        background-size:100% 100%;
+       padding: 60px 0 0 50px;
+        p{
+            color: #B31B22 ;
+        }
+        .title{
+            font-size:36px;
+        }
+        .tips{
+            font-size:20px;
+        }
+        .count-down{
+            .day{
+                font-size:110px;
+                color: @titleColor;
+            }
+            .dayText{
+                font-size:40px;
+                color: @titleColor;
+            }
+            .hms{
+                font-size: 40px;
+            }
+        }
+        .lookmore{
+            font-size: 20px;
+            color: #B31B22 ; 
+        }
+    }
+    .fourthLeft-top{
+        background-color: #fff;
+        ul{
+            overflow: hidden;
+            height: 100%;
+            position: relative;
+            // perspective: 800px;
+            li{
+                width:217px;
+                height:379px;
+                position: absolute;
+                top:3px;
+                p{
+                    line-height: 1.5;
+                }
+                // background-color: #fff;
+                .fre-book{
+                    .bigImageSize{
+                       width:150px;
+                       height: 200px;
+                    }
+                }
+                &:hover{
+                    -webkit-box-shadow:0 0 20px #7D879F  ;
+                    -moz-box-shadow:0 0 20px #7D879F  ; 
+                    box-shadow:0 0 20px #7D879F  ;
+                    // transform: translateZ(20px);
+                    .fre-book{
+                        .bigImageSize{
+                            transform: scale(1.05)
+                        }
+                    }
+                    .fre-btn{
+                        color: #fff;
+                        background-color: @color;
+                    }
+                }
+                a{
+                    display: block;
+                }
+                .fre-book{
+                  width:170px;
+                   margin: 0 auto;
+                   text-align: center;
+                   padding-top: 30px;
+                   .bigImageSize{
+                       margin-bottom:15px; 
+                   }
+                   .title{
+                       width:100%;
+                   }
+                    .authorSize {
+                        text-decoration:line-through;
+                        img{
+                            width:16px;
+                            height: 16px;
+                            vertical-align: middle;
+                            margin-top:-5px;
+                        }
+                    }
+                }
+                .fre-btn{
+                    width:108px;
+                    height: 30px;
+                    line-height: 27px;
+                    font-size: 16px;
+                    color: @color ;
+                    border: 1px solid @color;
+                    text-align: center;
+                    border-radius: 5px;
+                    margin:20px auto 0;
+                  
+                }
+                &:first-child{
+                    left:3px;
+                }
+                &:nth-child(2){
+                    left:223px;
+                }
+                &:nth-child(3){
+                    left:446px;
+                }
+                &:last-child{
+                    right:3px;
+                }
+            }
+
+        }
+    }
+
+}
+
+
+
+
+// 2017/12/13
+.latest-update{
+    height: 825px;
+    .latest-BookList{
+        table{ 
+               
+            tr{
+                &:hover{
+                    background-color:#F4FCFF ;
+                }
+                th,td{
+                    text-align: left;
+                    padding: 0 0 0 20px ;
+                }
+            }
+           
+        }
+        .lookMore{
+            display: block;
+            width:760px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            border: 1px solid @boderColor;
+            margin: 45px auto 0;
+            border-radius: 3px;
+            color:@listColor;
+           &:hover{
+                color:#fff ;
+                background-color: #C4C4C4 ;
+                border:1px solid #c4c4c4;
+           }
+        }
+    }
+    .seventhRight{
+        height: 100%;
+        background-color: #fff;
+        .Customer-Service{
+            margin-top:30px;
+            .adress{
+                padding:30px 15px 0  15px;
+                // width:95%;
+                // border-top: 1px solid @boderColor;
+                p{
+                    font-size: 14px;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+        .shortDes{
+            width:64%;
+        }
+        .author{
+            text-align: center;
+            width:25%;
+            color:@listColor;
+           display: inline-block;
+            &:hover{
+                color:@color;
+            }
+        }
+    }
+}
+
+
+table{
+    width:100%;
+    tr{
+        width:100%;
+        height: 45px;
+        text-align:left;
+        font-size:14px;
+        cursor: pointer;
+        text-align: center;
+        a{
+            display: block;
+            width:100%;
+            height:45px;
+            line-height: 45px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            &:hover{
+                color:@color;
+            }
+        }
+       
+    }
+    .thead{
+        &:hover{
+            margin-bottom:30px; 
+            background-color: #fff;
+        }
+    }
+}
+
+
+
+
+
+.Ranking{
+    .commom-description{
+        .des-right{
+            min-height: 112px;
+        }
+        
+    }
+    .rank-wrap{
+        position: relative;
+        .commonTitle{
+            border-bottom:1px solid @boderColor;
+        }
+        .more{
+            height: 60px;
+            width:70px;
+            text-align: center;
+            line-height: 60px;
+            display: block;
+            position: absolute;
+            top:0;
+            right:0;
+            &:hover{
+                color:@color;
+            }
+        }
+    }
+    .numIcon{
+        display: inline-block;
+        width:22px;
+        height: 22px;
+        background: url(../../img/index/home-icon-01.png) no-repeat;
+        background-size: 100% 100%;
+        text-align: center;
+        line-height: 18px;
+        color:#fff;
+        font-size:12px;
+        vertical-align: middle;
+    }
+    ul{
+        padding:0 15px;
+        li{
+            margin-bottom: 23px;
+            a{
+                &:hover{
+                    color:@color;
+                }
+            }
+            &:last-child{
+                margin-bottom:0;
+            }
+            p{
+                display: block;
+                font-size:14px;
+                a{
+                    &:hover{
+                        color:@color;
+                    }
+                }
+              
+                span,a{
+                    vertical-align: top;
+                    color:@titleColor;
+                }
+                .circle{
+                    display: inline-block;
+                    width:20px;
+                    height: 20px;
+                    background-color:#fff ;
+                    border:1px solid #c4c4c4;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 20px;
+                    position: relative;
+                    z-index: 2;
+                    
+                   
+                }
+                .circle::before{
+                    content: ' ';
+                    position: absolute;
+                    top:1px;
+                    left: 1px;
+                    bottom: 1px;
+                    right: 1px;
+                    
+                    background-color: #c4c4c4;
+                    border-radius: 50%;
+                    z-index: -1
+
+                }
+                .shortDes{
+                    display: inline-block;
+                    width:50%;
+                    // vertical-align: middle;
+                }
+                .num2{
+                    display: inline-block;
+                    width:25px;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 20px;
+                    background: url(../../img/index/home-icon-02.png) no-repeat;
+                    background-size: 101% auto;
+                    margin-left:-5px;
+                    // vertical-align: middle;
+                }
+                .num3{
+                    display: inline-block;
+                    width:25px;
+                    height: 25px;
+                    text-align: center;
+                    line-height: 20px;
+                    background: url(../../img/index/home-icon-03.png) no-repeat;
+                    background-size: 101% auto;
+                    margin-left:-5px;
+                }
+            }
+        }
+    }
+}
+
+.smallBtn{
+    display: block;
+    margin:30px auto;
+    width:112px;
+    height: 26px;
+    border:1px solid @boderColor;
+    border-radius: 3px;
+    line-height: 24px;
+    text-align: center;
+    color:@listColor ;
+    font-size:12px;
+    &:hover{
+        color:#fff ;
+        background-color: #C4C4C4 ;
+        border:1px solid #c4c4c4;
+    }
+    
+}
+// 榜单
+.fivth{
+    margin-bottom: 25px;
+}
+.getOnTheList{
+    background-color: #fff ;
+    ol{
+        overflow: hidden;
+        li{
+            width:299px;
+            float: left;
+            &:last-child{
+                .top{
+                    border:none;
+                }
+            }
+           
+            .commonTitle{
+                border-bottom:1px solid #fff ;
+                &:hover{
+                    color:@color;
+                }
+            }
+            .commom-description{
+                padding:0 0 35px;
+            }
+           
+        }
+    }
+}
+
+.getOnTheList .top{
+    overflow: hidden;
+    border-right:1px solid #fff;
+    margin-top:5px;
+    padding: 0 20px;
+    min-height: 522px;
+    ul{
+        padding: 0;
+        li{
+            a{
+                &:hover{
+                    color:@color;
+                }
+            }
+            .shortDes{
+                display: inline-block;
+                width:50%;
+            }
+            .author{
+                display: inline-block;
+                width:35%;
+                text-align: center;
+                color:@listColor;
+            }
+        }
+       
+    }
+}
+// 分类
+.classification{
+    ol{
+        border-top:1px solid #fff ;
+        // border-bottom:1px solid #fff ;
+
+        li{
+            border-right:1px solid #fff;
+           
+            &:last-child{
+               border:none;
+            }
+            &:nth-child(4){
+                border: none;
+            }
+            .top{
+                border:none;
+                min-height: 300px;
+            }
+            .commonTitle{
+                border:none;
+                cursor: pointer;
+                &:hover{
+                    color:@color;
+                }
+            }
+            ul{
+                li{
+                    &:last-child{
+                        // margin-bottom:50px; 
+                    }
+                }
+            }
+        }
+    }
+    ol>li{
+       min-height:380px;
+    }
+}
+
+
+// 广告牌
+.Adver-board{
+height: 217px;
+margin:25px 0;
+    img{
+        width:100%;
+        height: 100%;
+    }
+}
+
+
+
+
+.indexWrap{
+    .section-right{
+        .commom-description{
+            padding:25px 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+// 提示框
+.showExchange{
+	position:fixed;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 999999999;
+}
+.showExchange .signInMask{
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	background-color:black;
+	opacity:0.5;
+}
+
+.showExchange .signInWrap{
+	min-width:300px;
+    min-height:100px;
+    padding:20px 20px;
+	border-radius:10px;
+	background-color: #fff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	z-index:  99999999999;
+    overflow: hidden;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+
+}
+
+.showExchange .signIntitle{
+	width:80%;
+	margin:0 auto;
+	text-align: center;
+	font-size:24px;
+}
+
+.showExchange .signInContent p{
+	text-align:center;
+	font-size:18px;
+	line-height: 1.5;
+	color:#646464;
+	padding:20px 20px;
+	text-align: center;
+}
+.showExchange .signInContent p span{
+color:@color;
+}
+.showExchange a {
+        display: block;
+        width: 80px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        background-color: @color;
+        margin: auto;
+        font-size: 20px;
+        text-decoration: none;
+        border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+

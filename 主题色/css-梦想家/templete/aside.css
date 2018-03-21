@@ -1,0 +1,280 @@
+.aside .commonTitle {
+  border-bottom: 1px solid #e7e7e7;
+}
+.aside .right-item {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  position: relative;
+  background-color: #fff;
+}
+.aside .right-item .titleTab {
+  text-align: left;
+}
+.aside .right-item .common-section-title {
+  margin-bottom: 25px;
+}
+.aside .right-item .commom-description {
+  padding: 0 20px 23px;
+}
+.aside .right-item .shortDes {
+  width: 58%;
+}
+.aside .right-item .author {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+}
+.aside .authorRecomond li a {
+  font-size: 14px;
+}
+.aside .authorRecomond li:hover .aboutAuthor-name {
+  color: #3cabdb;
+}
+.aside .authorRecomond li:hover .aboutAuthor-bokNum {
+  color: #7D879F;
+}
+.aside .authorRecomond li p {
+  overflow: hidden;
+}
+.aside .authorRecomond .aboutAuthor-name {
+  display: inline-block;
+  height: 35px;
+  width: auto;
+  max-width: 60%;
+  color: #1B2641;
+}
+.aside .authorRecomond .aboutAuthor-name span:first-child {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+}
+.aside .authorRecomond .aboutAuthor-name span:first-child img {
+  width: 100%;
+  height: 100%;
+}
+.aside .authorRecomond .aboutAuthor-name span:last-child {
+  vertical-align: top;
+  margin-top: 8px;
+}
+.aside .authorRecomond .aboutAuthor-bokNum {
+  margin-top: 4px;
+  margin-right: 20px;
+  color: #7D879F;
+}
+.aside .authorRecomond .aboutAuthor-bokNum span {
+  display: inline-block;
+}
+.aside .authorRecomond .aboutAuthor-bokNum span:first-child img {
+  width: 20px;
+  height: 23px;
+}
+.aside .authorRecomond .aboutAuthor-bokNum span:last-child {
+  vertical-align: top;
+  margin-top: 4px;
+}
+.aside .typeof ol {
+  padding-top: 20px;
+}
+.aside .typeof ol li {
+  padding: 0 20px 0;
+}
+.aside .typeof ol li p {
+  font-size: 18px;
+  color: #1B2641;
+  margin-bottom: 10px;
+}
+.aside .typeof ol li p span {
+  display: inline-block;
+}
+.aside .typeof ol li p .cir {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #7D879F;
+  vertical-align: top;
+  margin-top: 10px;
+}
+.aside .typeof ol li ul {
+  overflow: hidden;
+  padding-bottom: 15px;
+}
+.aside .typeof ol li ul li {
+  float: left;
+  padding: 0 5px;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 10px 10px 0;
+  cursor: pointer;
+}
+.aside .typeof ol li ul li a {
+  display: block;
+  font-size: 14px;
+}
+.aside .typeof ol .hasChoose ul li {
+  background-color: #3cabdb;
+  color: #fff   ;
+  border-radius: 3px;
+}
+.aside .typeof ol .hasChoose ul li span {
+  display: inline-block;
+  border-radius: 3px;
+}
+.aside .rankingnav {
+  padding-bottom: 15px;
+}
+.aside .rankingnav .commonTitle {
+  margin: 0;
+}
+.aside .rankingnav ul li a {
+  display: block;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  font-size: 16px;
+  padding-left: 20px;
+  border-bottom: 1px solid #e7e7e7 ;
+}
+.aside .rankingnav ul li a i {
+  font-size: 20px;
+  margin: 0 10px;
+}
+.aside .rankingnav ul li:last-child a {
+  border-bottom: none;
+}
+.aside .authorRetrivalWord {
+  overflow: hidden;
+  padding-left: 10px;
+  margin: 30px 0;
+}
+.aside .authorRetrivalWord li {
+  display: inline-block;
+  width: 68px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  border: 1px solid #7D879F;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+.aside .authorMes .Headforms {
+  color: #1B2641;
+  text-align: center;
+  padding: 30px 0;
+}
+.aside .authorMes .Headforms img {
+  width: 97px;
+  height: 97px;
+  border-radius: 50%;
+}
+.aside .authorMes ol {
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.aside .authorMes ol li {
+  float: left;
+  width: 33.3%;
+}
+.aside .authorMes ol li a {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.aside .authorMes ol li a p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.aside .authorMes ol li a span {
+  font-size: 14px;
+}
+.aside .authorMes .swiperTitle {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+.aside .authorMes .swiper-container .swiper-button-next,
+.aside .authorMes .swiper-container .swiper-button-prev {
+  width: 20px;
+  height: 34px;
+  top: 20%;
+  margin-top: 0;
+  background-size: 20px 34px;
+}
+.aside .authorMes .swiper-container .swiper-button-prev {
+  background: url(../../img/index/nover-button-left-nor.png) no-repeat;
+}
+.aside .authorMes .swiper-container .swiper-button-prev:hover {
+  background: url(../../img/index/nover-button-left-sel.png) no-repeat;
+}
+.aside .authorMes .swiper-container .swiper-button-next {
+  background: url(../../img/index/nover-button-rightt-nor.png) no-repeat;
+}
+.aside .authorMes .swiper-container .swiper-button-next:hover {
+  background: url(../../img/index/nover-button-right-sel-.png) no-repeat;
+}
+.aside .authorMes .swiper-container .swiper-slide div {
+  width: 100%;
+  text-align: center;
+}
+.aside .authorMes .swiper-container .swiper-slide div .book-online {
+  display: block;
+  width: 110px;
+  text-align: center;
+  margin: 0 auto;
+}
+.aside .authorMes .swiper-container .swiper-slide div .book-online img {
+  display: block;
+  width: 107px;
+  height: 138px;
+  -webkit-box-shadow: 3px 3px 3px #7D879F  ;
+  -moz-box-shadow: 3px 3px 3px #7D879F ;
+  box-shadow: 3px 3px 3px #7D879F  ;
+}
+.aside .authorMes .swiper-container .swiper-slide div p span,
+.aside .authorMes .swiper-container .swiper-slide div p a {
+  display: block;
+}
+.aside .authorMes .swiper-container .swiper-slide div p .title {
+  width: 80%;
+  color: #1B2641;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.aside .authorMes .swiper-container .swiper-slide div p .text {
+  font-size: 14px;
+  color: #7D879F;
+  text-align: left;
+  line-height: 1.5;
+  padding: 0 20px;
+}
+.common-section-left {
+  min-height: 200px;
+}
+.hovermore {
+  height: 60px;
+  width: 100px;
+  text-align: center;
+  line-height: 60px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #7D879F;
+}
+.hovermore:hover {
+  color: #3cabdb;
+}
+.chooseActive {
+  background-color: #3cabdb;
+  color: #fff;
+  border-radius: 3px;
+}
+.chooseActive a {
+  color: #fff;
+}

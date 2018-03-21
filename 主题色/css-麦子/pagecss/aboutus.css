@@ -1,0 +1,137 @@
+.aboutUSWrap .asideBar {
+  width: 155px;
+}
+.aboutUSWrap .asideBar li {
+  margin-bottom: 14px;
+}
+.aboutUSWrap .aboutUs {
+  width: 1030px;
+  display: none;
+  padding: 0 50px 100px;
+  color: #7D879F;
+  font-size: 14px;
+  background-color: #fff;
+}
+.aboutUSWrap .aboutUs p {
+  line-height: 2.0;
+}
+.aboutUSWrap .aboutUs .title {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #1B2641;
+  margin: 50px auto 45px;
+  position: relative;
+}
+.aboutUSWrap .aboutUs .title .chinese {
+  display: block;
+  width: 140px;
+  text-align: center;
+  position: absolute;
+  background-color: #fff;
+  top: -15px;
+  left: 20px;
+  font-size: 20px;
+  color: #ff5c4d;
+}
+.aboutUSWrap .aboutUs .title .English {
+  display: block;
+  width: 167px;
+  text-align: center;
+  font-size: 13px;
+  color: #1B2641;
+  position: absolute;
+  bottom: -10px;
+  left: 5px;
+  background-color: #fff;
+}
+.aboutUSWrap .aboutwebsite {
+  padding: 0 0 100px;
+  background-color: #f2f2f2;
+}
+.aboutUSWrap .aboutwebsite .websiteLogo {
+  width: 100%;
+  height: 350px;
+}
+.aboutUSWrap .aboutwebsite .websiteLogo img {
+  width: 100%;
+  height: 100%;
+}
+.aboutUSWrap .aboutwebsite .title {
+  width: 250px;
+}
+.aboutUSWrap .aboutwebsite .title .chinese {
+  width: 150px;
+  background-color: #f2f2f2;
+  left: 50px;
+}
+.aboutUSWrap .aboutwebsite .title .English {
+  width: 190px;
+  left: 15px;
+  background-color: #f2f2f2;
+}
+.aboutUSWrap .callUS {
+  min-height: 300px;
+  background-color: #fff;
+}
+.aboutUSWrap .callUS p span {
+  margin-right: 30px;
+}
+.aboutUSWrap .callUS .callWay {
+  overflow: hidden;
+}
+.aboutUSWrap .callUS .callWay .way-left {
+  width: 600px;
+  display: inline-block;
+}
+.aboutUSWrap .callUS .callWay .way-right {
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: top;
+}
+.aboutUSWrap .callUS .callWay .way-right img {
+  width: 155px;
+  height: 155px;
+  margin-bottom: 30px;
+}
+.aboutUSWrap .recruitment {
+  background-color: #f2f2f2;
+  padding: 0;
+}
+.aboutUSWrap .recruitment .top {
+  width: 100%;
+  background-color: #fff;
+  padding: 50px 0 45px;
+}
+.aboutUSWrap .recruitment .top .title {
+  margin: 0 auto;
+}
+.aboutUSWrap .recruitment .recruitmentMessage {
+  padding: 0 0 30px;
+}
+.aboutUSWrap .recruitment .recruitmentMessage ul {
+  overflow: hidden;
+  background-color: #fff;
+}
+.aboutUSWrap .recruitment .recruitmentMessage ul li {
+  background-color: #fff;
+  width: 510px;
+  padding: 30px 50px 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+.aboutUSWrap .recruitment .recruitmentMessage ul li h3 {
+  color: #1B2641;
+}
+.aboutUSWrap .recruitment .recruitmentMessage ul li .salary {
+  font-size: 16px;
+  color: #1B2641;
+}
+.aboutUSWrap .recruitment .recruitmentMessage ul li .salary em {
+  font-style: normal;
+  color: #ff5c4d;
+}
+.aboutUSWrap .recruitment .recruitmentMessage ul li .tips {
+  color: #1B2641;
+  font-weight: 600;
+}

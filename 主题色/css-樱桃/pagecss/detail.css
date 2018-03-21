@@ -1,0 +1,529 @@
+.detailWrap {
+  margin-top: 0;
+}
+.detailWrap .Scover {
+  margin-right: 30px;
+}
+.detailWrap .commom-description {
+  position: relative;
+}
+.detailWrap .commom-description .des-right .d-author a {
+  font-size: 14px;
+}
+.detailWrap .common-section-left {
+  padding: 0px 30px 20px;
+}
+.detailWrap .common-section-left .des-right .title {
+  width: 60%;
+}
+.detailWrap .bookLabel {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.detailWrap .bookLabel a {
+  display: inline-block;
+  padding: 0 3px;
+  color: #29A3F1;
+  border: 1px solid #29A3F1;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+.detailWrap .bookLabel a:hover {
+  background-color: #ee0c15;
+  color: #fff;
+  border-color: #ee0c15;
+}
+.detailWrap .neweast {
+  margin: 40px 0 15px;
+  padding-top: 35px;
+  border-top: 1px solid #e7e7e7;
+}
+.detailWrap .neweast span {
+  font-size: 12px;
+}
+.detailWrap .btn-group {
+  margin: 50px 0 10px;
+  overflow: hidden;
+}
+.detailWrap .btn-group a,
+.detailWrap .btn-group span {
+  margin-right: 10px;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+.detailWrap .btn-group a:hover,
+.detailWrap .btn-group span:hover {
+  opacity: 1;
+}
+.detailWrap .btn-group span {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  cursor: pointer;
+  color: #ee0c15;
+  margin-top: 5px;
+}
+.detailWrap .btn-group span i {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #8c8c8c;
+}
+.detailWrap .btn-group .beginReadbtn {
+  background-color: #ee0c15;
+  color: #fff;
+  width: 107px;
+  height: 40px;
+  line-height: 40px;
+}
+.detailWrap .btn-group .bookcasebtn {
+  width: 107px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #DDD;
+  color: #ee0c15;
+}
+.detailWrap .btn-group .author-order {
+  display: block;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  text-align: center;
+  color: #ee0c15;
+  font-size: 16px;
+  font-weight: 600;
+}
+.detailWrap .sharing {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.detailWrap .sharing span i {
+  font-size: 20px;
+  margin-right: 10px;
+  color: #a0a0a0;
+}
+.detailWrap .sharing a {
+  margin: 0 5px;
+}
+.detailWrap .sharing a i {
+  font-size: 20px;
+}
+.detailWrap .sharing a .icon-weixinfenxiang {
+  color: #18D100;
+}
+.detailWrap .sharing a .icon-weibofenxiang {
+  color: #D91E06;
+}
+.detailWrap .sharing a .icon-qqfenxiang {
+  color: #4CAFE9;
+}
+.detailWrap .phoneEnter {
+  width: 145px;
+  height: 250px;
+  background: url(../../img/index/nover-phone.png) no-repeat;
+  background-size: 145px 250px;
+  position: absolute;
+  right: 0;
+  top: 280px;
+  text-align: center;
+  padding-top: 80px;
+  font-size: 14px;
+  display: none;
+}
+.detailWrap .phoneEnter img {
+  width: 105px;
+  height: 105px;
+}
+.detailWrap .tips {
+  flex: left;
+  margin: 25px 0;
+  overflow: hidden;
+}
+.detailWrap .tips span {
+  color: #7D879F;
+  font-size: 12px;
+  flex: left;
+}
+.detailWrap .tips i {
+  color: #ee0c15;
+  font-size: 20px;
+  margin-top: 3px;
+  margin-right: 5px;
+  float: left;
+}
+.detailWrap .productTitle {
+  width: 100%;
+  padding: 0;
+}
+.detailWrap .productTitle .titleTab {
+  text-align: left;
+}
+.detailWrap .productTitle .titleTab a {
+  border-radius: 3px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 15px;
+}
+.detailWrap .productTitle .titleTab span {
+  display: inline-block;
+  color: #7D879F;
+  margin: 0 10px;
+}
+.detailWrap .producct-Message .commonTitle {
+  border-bottom: 1px solid #e7e7e7;
+  padding-left: 0;
+}
+.detailWrap .producct-Message .commonTitle .num {
+  font-size: 16px;
+}
+.detailWrap .producct-Message .descrition {
+  font-size: 14px;
+  line-height: 20px;
+  margin: 25px 0;
+}
+.detailWrap .producct-Message .reward {
+  overflow: hidden;
+}
+.detailWrap .producct-Message .reward .reward-left ul {
+  overflow: hidden;
+}
+.detailWrap .producct-Message .reward .reward-left ul li {
+  width: 16.6%;
+  font-size: 14px;
+  float: left;
+  text-align: center;
+  margin: 35px 0;
+}
+.detailWrap .producct-Message .reward .reward-left ul li img {
+  width: 100px;
+  height: 100px;
+}
+.detailWrap .producct-Message .reward .reward-right {
+  width: 240px;
+  min-height: 195px;
+  background: url(../../img/index/message.png) no-repeat;
+  background-size: 100% 100%;
+  margin-top: 20px;
+}
+.detailWrap .producct-Message .reward .reward-right ul {
+  padding: 20px 5px 20px 20px;
+}
+.detailWrap .producct-Message .reward .reward-right ul li {
+  font-size: 14px;
+  color: #fff;
+  background: url(../../img/index/icon-sound.png) no-repeat;
+  background-size: 14px 14px;
+  background-position: 0 center;
+  padding: 0 18px;
+  margin: 5px 0;
+}
+.detailWrap .producct-Message .reward .reward-right ul li img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.detailWrap .producct-Message .reward .reward-right ul li span {
+  display: inline-block;
+}
+.detailWrap .producct-Message .reward .reward-right ul li .Tourist {
+  width: 60%;
+  vertical-align: middle;
+  margin-top: -2px;
+}
+.detailWrap .producct-Message .Guesslike {
+  margin-top: 25px;
+}
+.detailWrap .producct-Message .Guesslike ul li {
+  margin: 30px 28.2px 0px;
+}
+.detailWrap .producct-Message .discussArea {
+  overflow: hidden;
+  display: block;
+}
+.detailWrap .producct-Message .discussArea .commonTitle {
+  border: none;
+}
+.detailWrap .producct-Message .discussArea .wordBox {
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 16px;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer {
+  margin-top: 45px;
+  font-size: 14px;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .discussant-name img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .discussant-name span {
+  display: inline-block;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .discussant-name .name {
+  margin: 0 10px;
+  font-weight: 600;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .discussant-name .toTop {
+  width: 60px;
+  padding-left: 10px;
+  color: #fff;
+  background: url(../../img/index/nover-bac-top.png) no-repeat;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .main-answer {
+  margin: 5px 0;
+  color: #7D879F;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .main-answer img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+  margin-top: -10px;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .main-answer .Essence {
+  display: inline-block;
+  font-size: 20px;
+  color: #cc6633;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .main-answer .num {
+  display: inline-block;
+  font-size: 18px;
+  color: #fcb421;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .main-answer .val {
+  display: block;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .timeReans {
+  color: #7D879F;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .timeReans span {
+  margin-right: 18px;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .timeReans span:last-child {
+  padding-left: 25px;
+  cursor: pointer;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .answerBox {
+  text-align: right;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .answerBox .answerWord {
+  margin: 10px 0;
+  text-align: left;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .answerBox .answerBtn {
+  width: 80px;
+  height: 30px;
+  background-color: #ee0c15;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .reMarkContent {
+  padding: 0 60px;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .reMarkContent li {
+  margin-top: 15px;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .reMarkContent li .re-markName {
+  font-weight: 600;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .reMarkContent li .remarkDetail {
+  color: #7D879F;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .reMarkContent p {
+  cursor: pointer;
+}
+.detailWrap .producct-Message .discussArea .discuss-answer ul.main-discuss li .reMarkContent .limit {
+  display: none;
+}
+.detailWrap .producct-Message .discussArea ul.main-discuss > li {
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.detailWrap .producct-Message .discussArea .no-datas {
+  min-height: 370px;
+}
+.detailWrap .product-Directory {
+  display: none;
+}
+.detailWrap .product-Directory .dataList {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.detailWrap .product-Directory .dataList li {
+  width: 326px;
+  float: left;
+  border-bottom: 1px solid #e7e7e7;
+}
+.detailWrap .product-Directory .dataList li .hasReading {
+  color: #ee0c15;
+}
+.detailWrap .product-Directory .dataList li a {
+  display: block;
+  overflow: hidden;
+  font-size: 14px;
+  color: #7D879F;
+  padding: 20px 0;
+}
+.detailWrap .product-Directory .dataList li a:hover {
+  color: #2BA4F1 ;
+}
+.detailWrap .product-Directory .dataList li a img {
+  width: 26px;
+  height: 21px;
+  vertical-align: middle;
+  float: left;
+  margin-top: -2px;
+  margin-right: 5px;
+}
+.detailWrap .product-Directory .dataList li a .charpterlist {
+  float: left;
+  width: 64%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.detailWrap .product-Directory .dataList li a .aboutdate {
+  float: right;
+}
+.detailWrap .product-Directory .dataList .mg {
+  margin-right: 180px;
+}
+.giving {
+  position: absolute;
+  width: 476px;
+  height: 476px;
+  left: 50%;
+  top: 50%;
+  z-index: 20;
+  background-color: #fff;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  font-size: 14px;
+}
+.giving .gift {
+  padding: 15px 50px;
+  height: 100%;
+  float: right;
+}
+.giving .gift ul {
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.giving .gift ul li {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.giving .gift ul li img {
+  width: 88px;
+  height: 88px;
+  padding: 5px;
+}
+.giving .gift ul li:nth-child(1) {
+  text-align: left;
+}
+.giving .gift ul li:nth-child(2) {
+  text-align: center;
+}
+.giving .gift ul li:nth-child(3) {
+  text-align: right;
+}
+.giving .gift ul li:nth-child(4) {
+  text-align: left;
+}
+.giving .gift ul li:nth-child(5) {
+  text-align: center;
+}
+.giving .gift ul li:nth-child(6) {
+  text-align: right;
+}
+.giving .gift ul li:nth-child(7) {
+  text-align: left;
+}
+.giving .gift ul li:nth-child(8) {
+  text-align: center;
+}
+.giving .gift ul li:nth-child(9) {
+  text-align: right;
+}
+.giving .gift .mineAcount img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.giving .gift .giveNum {
+  margin: 10px 0;
+}
+.giving .gift .giveNum input {
+  width: 65px;
+  height: 30px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  margin: 0 5px;
+  text-align: center;
+  padding: 0 5px;
+}
+.giving .gift .giveWord {
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid #e7e7e7;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.lookMore {
+  color: #ee0c15;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}
+.writeBtn {
+  width: 100px;
+  height: 33px;
+  background-color: #ee0c15;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.backAnswerinit {
+  background: url(../../img/index/nover-iconchat-bubble.png) no-repeat;
+  background-size: auto 100%;
+}
+.backAnswerActive {
+  background: url(../../img/index/nover-iconchat-bubble-sel.png) no-repeat;
+  background-size: auto 100%;
+}
+.giftInit {
+  border: 1px solid #e7e7e7;
+}
+.giftChoose {
+  border: 1px solid #ee0c15;
+}

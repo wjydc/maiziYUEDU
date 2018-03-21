@@ -1,0 +1,774 @@
+.content {
+  margin: 0 auto;
+}
+.readWrap {
+  width: 1060px;
+  position: relative;
+  z-index: 9;
+  margin: 0 auto;
+}
+.articleTop {
+  width: 100%;
+  min-height: 647px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.articleTop .pageMark {
+  text-align: left;
+  margin: 0;
+  padding: 25px 0 55px 30px;
+}
+.articleTop .bookCover .booktitle {
+  font-size: 30px;
+  color: #1B2641;
+}
+.articleTop ul {
+  overflow: hidden;
+  margin: 65px auto 50px;
+}
+.articleTop ul li {
+  float: left;
+  font-size: 24px;
+}
+.articleTop ul li p {
+  width: 100%;
+}
+.articleTop ul li .date {
+  border-left: 1px solid #7D879F;
+  border-right: 1px solid #7D879F;
+}
+.articleTop .copyright {
+  font-size: 16px;
+}
+.articleContent {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+.articleContent .artical-message p {
+  line-height: 1.5;
+}
+.articleContent .artical-message .articalCharpter {
+  font-size: 24px;
+}
+.articleContent .artical-message .acticalAuthor {
+  font-size: 14px;
+  color: #7D879F;
+  margin-top: 15px;
+}
+.articleContent .artical-message .acticalAuthor span {
+  margin: 0 10px;
+}
+.articleContent .artical-message .acticalAuthor a {
+  margin: 0 10px;
+}
+.articleContent .articleDetail {
+  padding: 35px 35px;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.articleContent .articleDetail p {
+  line-height: 1.8;
+  margin-bottom: 40px;
+  text-align: justify;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+.articleContent .articleDetail .statement {
+  margin-top: 50px;
+  text-align: left;
+  font-size: 14px;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 4px;
+  padding: 0 10px;
+  color: #1B2641;
+  background-color: #f2f2f2;
+}
+.articleContent .articleDetail .payCharpter {
+  width: 100%;
+  border-top: 2px solid #e7e7e7;
+  padding: 60px 0;
+  text-align: center;
+}
+.articleContent .articleDetail .payCharpter .vipIcon {
+  font-size: 30px;
+  text-align: center;
+}
+.articleContent .articleDetail .payCharpter .vipIcon img {
+  width: 25px;
+  height: 20px;
+  vertical-align: middle;
+}
+.articleContent .articleDetail .payCharpter .toPay {
+  display: block;
+  width: 270px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #fff ;
+  background-color: #3cabdb;
+  font-size: 24px;
+  border-radius: 4px;
+  margin: 40px auto 10px;
+}
+.articleContent .articleDetail .payCharpter .vipchoose {
+  text-align: center;
+  font-size: 14px;
+}
+.articleContent .articleDetail .payCharpter .vipchoose label {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin: -3px 5px 0 0;
+  border: 1px solid #e7e7e7;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.articleContent .articleDetail .payCharpter .vipchoose .yes {
+  background: url(../../img/index/read-icon-selected-sel.png) no-repeat;
+  background-size: 100% 100%;
+}
+.charpterChange {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
+.charpterChange ul {
+  overflow: hidden;
+}
+.charpterChange li {
+  width: 50%;
+  height: 60px;
+  margin-top: 20px;
+  float: left;
+}
+.charpterChange li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 6px;
+  font-size: 18px;
+}
+.charpterChange li a i {
+  font-size: 14px;
+  margin-left: 5px;
+}
+.charpterChange li .pre {
+  border-right: 1px solid #e7e7e7;
+  background: url(../../img/index/read-icon-last-chapter-nor.png) no-repeat;
+  background-size: 60px 60px;
+  background-position: 35% 5%;
+}
+.charpterChange li .prehas {
+  border-right: 1px solid #e7e7e7;
+  color: #3cabdb;
+  background: url(../../img/index/read-icon-last-chapter-sel.png) no-repeat;
+  background-size: 60px 60px;
+  background-position: 35% 5%;
+}
+.charpterChange li .next {
+  background: url(../../img/index/read-icon-next-chapter-norl.png) no-repeat;
+  background-size: 60px 60px;
+  background-position: 35% 5%;
+}
+.charpterChange li .nexthas {
+  color: #3cabdb;
+  background: url(../../img/index/read-icon-next-chapter-sel.png) no-repeat;
+  background-size: 60px 60px;
+  background-position: 35% 5%;
+}
+.Guesslike {
+  margin-top: 10px;
+  padding-bottom: 30px;
+}
+.Guesslike .commonTitle {
+  border-bottom: 1px solid #e7e7e7;
+  padding-right: 20px;
+}
+.left-suspension {
+  width: 610px;
+  position: fixed;
+  left: 50%;
+  top: 180px;
+}
+.left-suspension .btngroup {
+  width: 60px;
+}
+.left-suspension .btngroup li a {
+  display: block;
+  width: 100%;
+  height: 72px;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+}
+.left-suspension .btngroup li a i {
+  font-size: 25px;
+}
+.left-suspension .btngroup li a:hover {
+  background: url(../../img/index/read-bac-sel-left.png) no-repeat left top;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.left-suspension p {
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+.left-suspension .down {
+  width: 60px;
+  height: 72px;
+  background: url(../../img/index/read-bac-nor-left.png) no-repeat left top;
+  background-size: 100% 100%;
+  color: #7D879F;
+  padding-top: 10px;
+}
+.left-suspension .down .init {
+  color: #3cabdb;
+}
+.left-suspension .guide {
+  width: 45px;
+  height: 56px;
+  line-height: 56px;
+  margin: 50px 0 0 25px;
+  background: url(../../img/index/read-bac-zhinan-nor.png) no-repeat left top;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.left-suspension .guide:hover {
+  background: url(../../img/index/read-bac-zhinan-sel.png) no-repeat left top;
+  background-size: 100% 100%;
+}
+.right-suspension {
+  width: 610px;
+  position: fixed;
+  left: 50%;
+  top: 450px;
+}
+.right-suspension ul {
+  width: 60px;
+}
+.right-suspension ul li a {
+  display: block;
+  width: 100%;
+  height: 72px;
+  background: url(../../img/index/read-bac-nor-right.png) no-repeat left top;
+  background-size: 100% 100%;
+  color: #7D879F;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+}
+.right-suspension ul li a i {
+  font-size: 25px;
+}
+.right-suspension ul li a:hover {
+  background: url(../../img/index/read-bac-sel-right.png) no-repeat left top;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.right-suspension ul li .toTop {
+  font-size: 35px;
+  padding-top: 5px;
+}
+.read-directory {
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  width: 80%;
+  height: 485px;
+  overflow: hidden;
+  top: -80px;
+  left: 70px;
+  -webkit-box-shadow: 0 0 5px #7D879F  ;
+  -moz-box-shadow: 0 0 5px #7D879F ;
+  box-shadow: 0 0 5px #7D879F  ;
+}
+.read-directory .close {
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  z-index: 100;
+}
+.read-directory ul {
+  width: 100%;
+  height: 485px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 30px 10px;
+}
+.read-directory ul li {
+  width: 49%;
+  float: left;
+  border-bottom: 1px solid #e7e7e7;
+}
+.read-directory ul li a {
+  display: block;
+  height: 60px;
+  line-height: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #7D879F;
+}
+.read-directory ul li a:hover {
+  color: #29A3F1;
+}
+.read-directory ul li a img {
+  width: auto;
+  height: 20px;
+  vertical-align: middle;
+  margin: -5px 5px 0 0;
+}
+.read-directory ul li .hasReading {
+  color: #3cabdb;
+}
+.read-directory ul .mr {
+  margin-right: 2%;
+}
+.read-guide {
+  display: none;
+  width: 470px;
+  background-color: #fff;
+  position: absolute;
+  top: 350px;
+  left: 70px;
+  -webkit-box-shadow: 0 0 5px #7D879F  ;
+  -moz-box-shadow: 0 0 5px #7D879F ;
+  box-shadow: 0 0 5px #7D879F  ;
+}
+.read-guide ul {
+  overflow: hidden;
+  margin-top: 40px;
+  padding-left: 30px;
+  text-align: center;
+}
+.read-guide ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+.read-guide ul li p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.read-guide ul li p span {
+  display: inline-block;
+  width: 55px;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
+  border: 1px solid #e7e7e7;
+  margin-right: 5px;
+}
+.read-guide .midBtn {
+  margin: 20px auto 30px;
+}
+.read-setting {
+  display: none;
+  width: 530px;
+  background-color: #fff;
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  -webkit-box-shadow: 0 0 5px #7D879F  ;
+  -moz-box-shadow: 0 0 5px #7D879F ;
+  box-shadow: 0 0 5px #7D879F  ;
+}
+.read-setting ul {
+  overflow: hidden;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+.read-setting ul li {
+  margin: 15px 0;
+  overflow: hidden;
+}
+.read-setting ul li .night {
+  text-align: center;
+  padding-top: 3px;
+}
+.read-setting ul li .night img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+.read-setting ul li span {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin: 0 10px;
+  vertical-align: middle;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.read-setting ul li span img {
+  width: 99%;
+  height: 99%;
+}
+.read-setting ul li .change {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.read-setting ul li .small {
+  font-size: 14px;
+}
+.read-setting ul li .small img {
+  width: 18px;
+  height: 15px;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+.read-setting ul li .big {
+  font-size: 18px;
+}
+.read-setting ul li .big img {
+  width: 20px;
+  height: 22px;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+.read-setting ul li .Size {
+  border: none;
+  line-height: 35px;
+}
+.read-setting .btn {
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+.read-setting .btn span {
+  display: inline-block;
+}
+.read-setting .btn .closeing {
+  background-color: #fff;
+  color: #7D879F;
+  border: 1px solid #e7e7e7;
+}
+.zIndex {
+  z-index: 999;
+}
+.ininttheme .readWrap div {
+  background-color: #fff;
+}
+.bgcolor0 {
+  background-color: #f2f2f2;
+}
+.bgcolor0 .readWrap div {
+  background-color: #fff;
+}
+.bgcolor1 {
+  background-color: #DFD7C1;
+}
+.bgcolor1 .readWrap div {
+  background-color: #F9F4E6 ;
+}
+.bgcolor2 {
+  background-color: #DFE4DC;
+}
+.bgcolor2 .readWrap div {
+  background-color: #EBF4E9 ;
+}
+.bgcolor3 {
+  background-color: #D8DFE0;
+}
+.bgcolor3 .readWrap div {
+  background-color: #E9F3F5 ;
+}
+.bgcolor4 {
+  background-color: #D4D3D3;
+}
+.bgcolor4 .readWrap div {
+  background-color: #E5E5E4  ;
+}
+.bgcolor5 {
+  background-color: #3F3F3F;
+}
+.bgcolor5 .articleTop {
+  color: #A0A6BC ;
+}
+.bgcolor5 .artical-message {
+  color: #A0A6BC ;
+}
+.bgcolor5 .pageMark {
+  color: #A0A6BC ;
+}
+.bgcolor5 .readWrap div {
+  background-color: #3C4050;
+}
+.bgcolor5 .readWrap .booktitle {
+  color: #A0A6BC ;
+}
+.bgcolor5 .charpterChange .pre,
+.bgcolor5 .charpterChange .next {
+  color: #A0A6BC ;
+}
+.bgcolor5 .charpterChange .pre:hover,
+.bgcolor5 .charpterChange .next:hover {
+  color: #3cabdb;
+}
+.bgcolor5 .Guesslike span {
+  color: #A0A6BC ;
+}
+.bgcolor5 .Guesslike li a {
+  color: #A0A6BC ;
+}
+.bgcolor5 .payCharpter p,
+.bgcolor5 .payCharpter a,
+.bgcolor5 .payCharpter span {
+  color: #A0A6BC ;
+}
+.fontcircle1 {
+  background-color: #7D879F;
+}
+.fontcircle2 {
+  background-color: #1B2641;
+}
+.fontcircle3 {
+  background-color: #5D7289;
+}
+.fontcircle4 {
+  background-color: #8E7D6A;
+}
+.fontcircle5 {
+  background-color: #C5C;
+}
+.fontcolor0 {
+  color: #000;
+}
+.fontcolor0 p {
+  color: #000;
+}
+.fontcolor1 {
+  color: #7D879F;
+}
+.fontcolor1 p {
+  color: #7D879F;
+}
+.fontcolor2 {
+  color: #1B2641;
+}
+.fontcolor2 p {
+  color: #1B2641;
+}
+.fontcolor3 {
+  color: #5D7289;
+}
+.fontcolor3 p {
+  color: #5D7289;
+}
+.fontcolor4 {
+  color: #8E7D6A;
+}
+.fontcolor4 p {
+  color: #8E7D6A;
+}
+.fontcolor5 {
+  color: #C5C;
+}
+.fontcolor5 p {
+  color: #C5C;
+}
+.fontsize-1 {
+  font-size: 16px;
+}
+.fontsize-1 p {
+  font-size: 16px;
+}
+.fontsize-2 {
+  font-size: 14px;
+}
+.fontsize-2 p {
+  font-size: 14px;
+}
+.fontsize-3 {
+  font-size: 12px;
+}
+.fontsize-3 p {
+  font-size: 12px;
+}
+.fontsize0 {
+  font-size: 18px;
+}
+.fontsize0 p {
+  font-size: 18px;
+}
+.fontsize1 {
+  font-size: 20px;
+}
+.fontsize1 p {
+  font-size: 20px;
+}
+.fontsize2 {
+  font-size: 22px;
+}
+.fontsize2 p {
+  font-size: 22px;
+}
+.fontsize3 {
+  font-size: 24px;
+}
+.fontsize3 p {
+  font-size: 24px;
+}
+.fontsize4 {
+  font-size: 26px;
+}
+.fontsize4 p {
+  font-size: 26px;
+}
+.fontsize5 {
+  font-size: 28px;
+}
+.fontsize5 p {
+  font-size: 28px;
+}
+.fontsize6 {
+  font-size: 30px;
+}
+.fontsize6 p {
+  font-size: 30px;
+}
+.articleTop ul {
+  width: 87.7%;
+}
+.articleTop ul li {
+  width: 33.3%;
+}
+.articleTop ul li p i {
+  font-size: 50px;
+}
+.page0 .readWrap {
+  width: 1060px;
+}
+.page0 .Guesslike ul li {
+  margin: 30px 4.7%;
+}
+.page0 .charpterChange ul li a {
+  padding-left: 45%;
+}
+.page0 .left-suspension {
+  margin-left: -600px;
+}
+.page0 .right-suspension {
+  margin-left: 540px;
+}
+.page1 .readWrap {
+  width: 1200px;
+}
+.page1 .Guesslike ul li {
+  margin: 30px 5.4%;
+}
+.page1 .charpterChange ul li a {
+  padding-left: 43%;
+}
+.page1 .left-suspension {
+  margin-left: -670px;
+}
+.page1 .right-suspension {
+  margin-left: 610px;
+}
+.page2 .readWrap {
+  width: 1300px;
+}
+.page2 .Guesslike ul li {
+  margin: 30px 5.7%;
+}
+.page2 .charpterChange ul li a {
+  padding-left: 43%;
+}
+.page2 .left-suspension {
+  margin-left: -720px;
+}
+.page2 .right-suspension {
+  margin-left: 660px;
+}
+.page-1 .readWrap {
+  width: 900px;
+}
+.page-1 .Guesslike ul li {
+  margin: 30px 3.8%;
+}
+.page-1 .charpterChange ul li a {
+  padding-left: 45%;
+}
+.page-1 .left-suspension {
+  margin-left: -520px;
+}
+.page-1 .right-suspension {
+  margin-left: 460px;
+}
+.page-2 .readWrap {
+  width: 800px;
+}
+.page-2 .Guesslike ul li {
+  margin: 30px 3.1%;
+}
+.page-2 .charpterChange ul li a {
+  padding-left: 47%;
+}
+.page-2 .left-suspension {
+  margin-left: -470px;
+}
+.page-2 .right-suspension {
+  margin-left: 410px;
+}
+.page-3 .readWrap {
+  width: 700px;
+}
+.page-3 .Guesslike ul li {
+  margin: 30px 2.1%;
+}
+.page-3 .charpterChange ul li a {
+  padding-left: 49%;
+}
+.page-3 .left-suspension {
+  margin-left: -420px;
+}
+.page-3 .right-suspension {
+  margin-left: 360px;
+}
+.page-4 .readWrap {
+  width: 640px;
+}
+.page-4 .Guesslike ul li {
+  margin: 30px 1.4%;
+}
+.page-4 .charpterChange ul li a {
+  padding-left: 50%;
+}
+.page-4 .left-suspension {
+  margin-left: -390px;
+}
+.page-4 .right-suspension {
+  margin-left: 330px;
+}
+.activeBgColor {
+  border: 2px solid #3cabdb;
+}
+.activeFontColor {
+  border: 2px solid #3cabdb;
+}
+.btnGrounpInit {
+  background: url(../../img/index/read-bac-nor-left.png) no-repeat left top;
+  background-size: 100% 100%;
+  color: #7D879F;
+}
+.btnGrounpHover {
+  background: url(../../img/index/read-bac-sel-left.png) no-repeat left top;
+  background-size: 100% 100%;
+  color: #fff;
+}

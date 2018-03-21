@@ -1,0 +1,141 @@
+table {
+  border-color: #e7e7e7;
+}
+.newMyIncome .moneyStatistics {
+  position: relative;
+}
+.newMyIncome .moneyStatistics .common-section-title a {
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+}
+.newMyIncome .moneyStatistics .common-section-title .tips {
+  margin-right: 15px;
+}
+.newMyIncome .moneyStatistics .newMyIncome-item {
+  padding: 25px;
+  min-height: 500px;
+}
+.newMyIncome .moneyStatistics .calendar {
+  height: 35px;
+  margin: 10px 0 20px;
+  overflow: hidden;
+}
+.newMyIncome .moneyStatistics .calendar span {
+  font-size: 14px;
+}
+.newMyIncome .moneyStatistics .calendar p,
+.newMyIncome .moneyStatistics .calendar span {
+  display: inline-block;
+}
+.newMyIncome .moneyStatistics .calendar .calendarInput {
+  width: 170px;
+  height: 100%;
+  cursor: pointer;
+  border: 1px solid #7D879F;
+}
+.newMyIncome .moneyStatistics .calendar .calendarInput input {
+  width: 155px;
+  height: 100%;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding-left: 40px;
+}
+.newMyIncome .moneyStatistics .calendar .calendarInput .Wdate {
+  background: url(../../img/index/author-icon-calendar.png) no-repeat right center;
+  background-size: 20px 20px;
+}
+.newMyIncome .moneyStatistics .calendar .calendarInput img {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+.newMyIncome .moneyStatistics .calendar .btn {
+  width: 65px;
+  height: 34px;
+  line-height: 32px;
+  text-align: center;
+  background-color: #1B2641;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.newMyIncome .moneyStatistics .calendar .btn:hover {
+  background-color: #080808 ;
+}
+.newMyIncome .moneyStatistics h2 {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.newMyIncome .moneyStatistics h2 span,
+.newMyIncome .moneyStatistics h2 img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.newMyIncome .moneyStatistics h2 img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.newMyIncome .moneyStatistics .bot-tip {
+  font-size: 15px;
+  color: #7D879F;
+  margin-top: 20px;
+}
+.newMyIncome .moneyStatistics table .classify td {
+  color: #000 ;
+}
+.newMyIncome .moneyStatistics table .black {
+  font-weight: 600;
+  color: #000 ;
+}
+.newMyIncome .moneyStatistics table .red {
+  color: #ff5c4d;
+}
+.newMyIncome .moneyStatistics .myEarning .IncomeDistribution {
+  margin-bottom: 25px;
+}
+.newMyIncome .moneyStatistics .myEarning .IncomeDistribution .staticCharts {
+  border: 1px solid #e7e7e7;
+  width: 100%;
+  min-height: 550px;
+  padding: 30px 20px;
+  position: relative;
+}
+.newMyIncome .moneyStatistics .myEarning .IncomeDistribution .staticCharts .bottomNum {
+  width: 100%;
+  height: 480px;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  z-index: 5;
+  text-align: center;
+  padding-top: 190px;
+}
+.newMyIncome .moneyStatistics .myEarning .IncomeDistribution .staticCharts .bottomNum p {
+  margin-bottom: 10px;
+}
+.newMyIncome .moneyStatistics .myEarning .IncomeDistribution .staticCharts .bottomNum p span {
+  font-size: 30px;
+}
+.newMyIncome .moneyStatistics .myEarning .IncomeDistribution .staticCharts .bottomNum .total span {
+  color: #29A3F1 ;
+}
+.newMyIncome .moneyStatistics .myEarning .IncomeDistribution .staticCharts .bottomNum .local span {
+  color: #ff5c4d;
+}
+.newMyIncome .moneyStatistics .myEarning .IncomeDistribution .staticCharts #eachart {
+  width: 100%;
+  height: 480px;
+  top: 50px;
+  left: 0;
+  position: absolute;
+  z-index: 10;
+}
+.newMyIncome .moneyStatistics .DetailWorks select {
+  width: 170px;
+  height: 34px;
+}

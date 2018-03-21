@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>用户中心-作者信息.管理作品</title>
+    <link rel="stylesheet" href="../../../css/templete/common.css">
+    <link rel="stylesheet" href="../../../pluginIn/Icon/iconfont.css">
+    <script src="../../../pluginIn/Icon/iconfont.js"></script>
+    <link rel="stylesheet" href="../../../css/pagecss/index.css">
+    <link rel="stylesheet" href="../../../css/templete/aside.css">
+    <!-- 分页 -->
+    <link rel="stylesheet" href="../../../css/templete/pager.css">
+    <link rel="stylesheet" href="../../../css/pagecss/authorArea.css">
+</head>
+<body>
+    <div class="header">
+        <div class="widthWrap head-wrap">
+                 <!-- logo 搜索 登录 -->
+            <div class="header-top widthWrap">
+                <!-- logo -->
+                <a href="#" class="head-left fl mtop">
+                    <img src="../../../img/index/logo.png" alt="">
+                </a>
+                <ul class="head-right fr mtop">
+                    <li class="head-loginStatute">
+                        <!-- 未登录 -->
+                        <a class="no-login">
+                            请登录
+                        </a>
+                        
+                        <!-- 已登录 -->
+                        <!-- <a class="has-login">
+                            <img src="../../../img/book.png" alt="">
+                        </a>   -->
+                    </li>
+                    <li class="head-bookshelf headlink">
+                        <a href="#">
+                            <img src="../../../img/index/home-icon-bookshelf.png" alt="">
+                            <span>书架</span>
+                        </a>
+                    </li>
+                    <li class="head-recharge headlink">
+                        <a href="#">
+                            <img src="../../../img/index/home-icon-re.png" alt="">
+                            <span>充值</span>
+                        </a>
+                            
+                    </li>
+                    <!-- 搜索 -->
+                    <li class="head-search">
+                        <input class="fl" type="text" placeholder="请输入..."></input>
+                        <a class="searchIcon fr">
+                            <img src="../../../img/index/home-icon-search.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="login-ways">
+                <!-- 未登录 -->
+                <div class="no-login-ways" style="display:none;">
+                    <a href="#"><img src="../../../img/index/home-icon-weibo.png" alt=""></a>
+                    <a href="#"><img src="../../../img/index/home-icon-weibo-sel.png" alt=""></a>
+                    <a href="#"><img src="../../../img/index/home-icon-weichat-sel.png" alt=""></a>
+                </div>
+                <!-- 已登录-退出登录 -->
+                <!-- <div class="has-login-back">
+                    <a href="#">退出登录</a>
+                </div> -->
+                   
+            </div>
+        </div>
+       <!-- nav 头部导航 -->
+       <div class="head-nav">
+            <div class="navul widthWrap">
+                <ul class="h-nav">
+                    <li class="activeNav h-nav-first">
+                        <a href="#">
+                            <img class="classfly" src="../../../img/index/home-icon-fenlei.png" alt="">
+                            <span>作品分类</span>
+                            <!-- 非首页状态下展示 -->
+                            <img class="no-index" src="../../../img/index/home-icon-zhankai.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>书库</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>排行榜</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>免费</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>完本</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>作者专区</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span>手机版</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- 头部导航-作品分类 -->
+                <div class="head-classify-nav">
+                    <ul>
+                        <li>
+                            <a href="#" class="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-san"></use>
+                                </svg>
+                                <span>古代言情</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-20151209tubiaolianxizhuanhuan22"></use>
+                                </svg>
+                                <span>浪漫言情</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <svg class="icon " aria-hidden="true">
+                                    <use xlink:href="#icon-zuanshi"></use>
+                                </svg>
+                                <span>豪门总裁</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-qihuan"></use>
+                                </svg>
+                                <span>玄幻奇幻</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-shanshuidushi"></use>
+                                </svg>
+                                <span>都市生活</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <svg class="icon " aria-hidden="true">
+                                    <use xlink:href="#icon-jingji"></use>
+                                </svg>
+                                <span>游戏竞技</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <svg class="icon" aria-hidden="true">
+                                        <use xlink:href="#icon-chuanyueshiguangji"></use>
+                                </svg>
+                                <span>穿越幻想</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-cardbox"></use>
+                                </svg>
+                                <span>短篇小说</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="moreClassify">
+                                <span>更多分类</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+    <div class="content widthWrap authorArea ManagerBook">
+        <div class="index-section">
+            <div class="asideBar fl">
+                <ul>
+                    <li><a href="#" class="NavActive">作者信息</a></li>
+                    <li><a href="#" class="NavInit">我写的书</a></li>
+                    <li><a href="#" class="NavInit">创建新书</a></li>
+                    <li><a href="#" class="NavInit">我的收入</a></li>
+                </ul>   
+            </div>
+            <!-- 左侧内容区 -->
+            <div class="common-section-left fr "> 
+
+                <div class="common-section-title">
+                    <p class="pageMark"><a href="#">我写的书</a><span>></span><a href="#">管理作品</a></p>
+                </div>
+               <!--作品信息  -->
+                <div class="commom-description fl">
+                   <a href="#" class="NoPublish">暂未发布</a>
+                    <a href="#" class="Scover"><img class="largeImageSize" src="../../../img/book2.png" alt=""></a>
+                    <div class="des-right">
+                        <p class="titlelable">
+                            <a class="booktitleSize titlecolor texthide title">囚爱潍哦潍坊科技我耳畔瘾</a>
+                        </p>
+                        <p class="d-author listcolor texthide">
+                            <a href="#">现代言情</a><i>|</i><a href="#">完结</a><i>|</i><a href="#">50W字</a><i>|</i><a href="#">50亿次点击</a>
+                        </p>
+                        <!-- <p class="bookLabel ">
+                            <a href="#">玄幻修真</a><a href="#">玄幻修真</a><a href="#">玄幻修真</a>
+                        </p> -->
+                        <p class="CS-descript authorSize listcolor">悍女医囚爱潍坊穿越，囚爱潍坊酒会为哦I生囚爱潍坊鸡尾酒会为哦I生穿越，囚爱潍坊v酒会为哦I生囚爱潍坊鸡尾酒会为哦I生穿，囚爱潍坊v酒会为哦I生囚爱潍坊鸡尾酒会为哦I生穿，囚爱潍坊v酒会为哦I生囚爱潍坊鸡尾酒会为哦I生穿越，囚爱潍坊鸡尾酒会为哦I囚脉从</p>
+                        <a href="changeMessage.html" class="chBtn">修改信息</a>
+
+                        <p class="Notice">
+                            <label for="">设置公告：</label><span class="brief">
+                                <textarea class="personalBrief"></textarea>
+                                <i><em>0</em>/100</i>
+                            </span>
+                        </p>
+
+                        <p class="submit">
+                                <button class="writeBtn">保 存</button> <button class="cancleBtn">取 消</button>
+                        </p>
+                    </div>
+                
+                </div>
+              
+
+
+                <div class="common-section-title">
+                        <span class="titlecolor fl">基本信息</span>
+                        <div class="titleTab">
+                            <a href="createCharpter.html" class="activeTab">新建章节</a>
+                        </div>
+                </div>
+                
+                <table style="table-layout:fixed;" class="hasOperate">
+                        <tr class="thead">
+                            <th  style="width:10%">章节号</th>
+                            <th style="width:40%">章节名称</th>
+                            <th>状态</th>
+                            <th>时间</th>
+                            <th>操作</th>
+                        </tr>
+                        <tr>
+                            <td  style="width:10%">1</td>
+                            <td style="width:40%">庭院深深深几许，繁花慢慢慢春意</td>
+                            <td class="blue">已发布</td>
+                            <td>2017.10.11 13：56</td>
+                            <td> <a class="manger" href="editor.html">编辑</a></td>
+                        </tr>
+                        <tr>
+                            <td style="width:10%">1</td>
+                            <td style="width:40%">庭院深深深几许，繁花院深深深几许，繁花v慢慢慢春意</td>
+                            <td class="blue">已发布</td>
+                            <td>2017.10.11 13：56</td>
+                            <td> <a class="manger" href="#">编辑</a></td>
+                        </tr>
+                        <tr>
+                            <td  style="width:10%">1</td>
+                            <td style="width:40%">庭院深深深几许，繁花慢慢慢春意</td>
+                            <td class="blue">已发布</td>
+                            <td>2017.10.11 13：56</td>
+                            <td> <a class="manger" href="#">编辑</a></td>
+                        </tr>
+                        <tr>
+                            <td  style="width:10%">1</td>
+                            <td style="width:40%">庭院深深深几许，繁花慢慢慢春意</td>
+                            <td class="blue">已发布</td>
+                            <td>2017.10.11 13：56</td>
+                            <td> <a class="manger" href="#">编辑</a></td>
+                        </tr>
+                        <tr>
+                            <td  style="width:10%">1</td>
+                            <td style="width:40%">庭院深深深几许，繁花慢慢慢春意</td>
+                            <td class="blue">已发布</td>
+                            <td>2017.10.11 13：56</td>
+                            <td> <a class="manger" href="#">编辑</a></td>
+                        </tr>
+                       
+                           
+                </table>
+                           
+               
+                 <!-- 分页 -->
+                <div class="paginationWrap" style="text-align:right">
+                    <ul class="pagination" id="page">
+                    </ul>
+                    <div class="pageJump">
+                    
+                        <input type="text"/>
+                        <span>页</span>
+                        <button type="button" class="button">GO</button>
+                    </div>
+                </div>
+            
+
+               
+
+
+            </div>
+
+        </div>
+      
+    </div>
+
+    <footer>
+        <div class="footer-nav">
+            <div class="footerNav-list widthWrap">                                                                                                                                                                                                                                                               
+                <span>友情链接：</span><a href="#">在线阅读网</a><a href="#">超阅小说</a><a href="#">盒子小说</a><a href="#">梦想家中文网</a><a href="#">榴莲阅读网</a><a href="#">七果小说</a><a href="#"> 掌读小说网</a><a href="#"> 夏至小说</a><a href="#"> 欢阅读小说网</a><a href="#">365好书</a><a href="#">贝壳阅读</a><a href="#">网文派</a>
+            </div>
+        </div>
+          
+        <div class="keepRecord">
+            <div class="keepRecord-detail widthWrap">
+                <div class="about-us">
+                    <a href="#">关于麦子阅读网</a><span>|</span><a href="#"> 联系我们</a><span>|</span><a href="#">人才招聘</a><span>|</span><a href="#">友情链接</a><span>|</span><a href="#">商务合作</a>
+                </div>
+                <p>
+                    <span>Copyright (C) 2015-2035 www.maizibook.com All Rights Reserved.</span>
+                    <span>杭州千韵信息技术有限公司版权所有</span>
+                    <span>浙ICP备16005696号-7</span>
+                </p>
+                <p>本站所收录所有小说作品、小说评论、用户上传内容或图片等均属其个人行为，不代表本站立场。</p>
+                <p> 请所有作者发布作品时务必遵守国家互联网信息管理办法规定，我们拒绝任何色情小说，一经发现，即作删除！ </p>
+                <p class="publicNum">浙公网安备156515646165号</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+</body>
+<script src='../../../pluginIn/jquery.js'></script>
+<script src='../../../js/templete/index.js'></script>
+<script src='../../../js/templete/pager.js'></script>
+
+<script>
+Page({
+    num:100,				//页码数
+    startnum:1,				//指定页码
+    elem:$('#page'),		//指定的元素
+    callback:function(n){	//回调函数
+        console.log(n);
+    }
+});
+
+
+
+
+$('.common-section-title span').each(function(index,item){
+    $(this).click(function(){
+        $('.common-section-title span').removeClass('titleActive').addClass('titleInit')
+        $(this).removeClass('titleInit').addClass('titleActive')
+        $('.message').hide()
+        $('.message').eq(index).show()
+    })
+})
+
+$('.picture').hover(function(){
+    $('.change').show()
+},function(){
+    $('.change').hide()
+})
+$('.change').click(function(){
+    $('.change').hide()
+    $('.pictureMask').show()
+})
+function hide(obj){
+    $(obj).click(function(){
+        $('.pictureMask').hide()
+    })
+}
+hide('.close')
+hide('.cancleBtn')
+
+
+$('.getImage').click(function(){
+    $(this).text('重新上传')
+})
+
+// 输入框字数
+var maxNum=100;
+$('.personalBrief').keyup(function(){
+    var num=$(this).val().length;
+    var text=$(this).val()
+    if(num>maxNum){
+        console.log(text)
+        var newText=text.substring(0,maxNum);
+        $(this).val(newText)
+        $('.brief em').html(maxNum)
+    }else{
+        $(this).val(text)
+        $('.brief em').html(num)
+    }
+})
+
+
+// 密码可视
+
+$('.eyes').click(function(){
+    $(this).toggleClass('noView')
+    $(this).toggleClass('canView')
+    var attr=$(this).attr('class')
+    var changeType= $(this).siblings('input').attr("type")=="text"?"password":"text";
+    $(this).siblings('input').attr("type",changeType);
+})
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+

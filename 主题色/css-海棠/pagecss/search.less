@@ -1,0 +1,55 @@
+@import '../templete/maincolor.less';
+
+// @textcolor:#7D879F ;
+// @titleColor:#1B2641 ;
+// @listColor: #7D879F  ;
+// @titleSize: 20px;
+// @boderColor:#e7e7e7;
+// @clickColor:#ff5c4d ; 
+// @color:#ff5c4d ;
+// @boderColor:#e7e7e7;
+// @boderNewC:#29A3F1 ;
+.searchWrap{
+    .aside{
+        .Ranking{
+            .shortDes{
+                width:58%;
+            }
+            .author{
+                width:30%;
+            }
+        }
+    }
+    // 搜索框
+    .search-area{
+        overflow: hidden;
+        padding-bottom: 15px;
+        .searchBox{
+            width:545px;
+            height: 47px;
+            border:1px solid @boderColor;
+            border-radius: 4px;
+            float: left;
+            font-size:14px;
+            padding: 0 10px;
+            outline: none;
+        }
+        .submit{
+            width: 95px;
+            height: 47px;
+            background-color: @color;
+            color:#fff;
+            font-size:16px;
+            border:none;
+            border-radius: 4px;
+            margin-left: 15px;
+            outline: none;
+            cursor: pointer;
+        }
+        p{
+            font-size: 14px;
+            color:@listColor;
+            margin:5px 0;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+<!Doctype html>
+
+<html>
+	<head>
+		<meta charset= "utf-8">
+		<meta name= "robots" content= "all">
+		<meta name= "keywords" content= "">
+		<meta name= "description" content= "">
+		<meta name= "author" content= "F">
+		<title>微信支付</title>
+		<link rel= "shortcut icon" type= "image/x-icon" href= "">
+		<link rel= "stylesheet" href= "../../css/pagecss/wechat-payment.css">
+	</head>
+
+	<body onLoad="timeCounter('timeCounter')">
+		<div class="wechatpay-header">
+			<div class="wechatpay-container">
+				<div class="wechatpay-header-tit">
+					<i></i>微信支付
+				</div>
+			</div>
+		</div>
+		<div class="wechatpay-main">
+			<div class="wechatpay-main-detailed">
+				<p class="wechatpay-main-detailed-tit">订单详情</p>
+				<p class="wechatpay-main-detailed-status">订单提交成功！</p>
+				<p class="wechatpay-main-detailed-countdown">请在<span id="timeCounter">59:59</span>分钟内支付，否则订单会被取消，请您尽快付款！</p>
+				<ul class="wechatpay-main-detailed-info">
+					<li>订单号：<span>20180118-00005555-0008476899</span></li>
+					<li>收款方：<span>杭州千越信息技术有限公司</span></li>
+					<li>商户名称：<span>麦子小说pc</span></li>
+					<li>订单金额：<span>充值20元</span></li>
+					<li>订单金额：<span>20元</span></li>
+					<li>扫一扫支付：<span>20元</span></li>
+				</ul>
+			</div>
+			<div class="wechatpay-main-qrcode">
+				<p class="wechatpay-main-qrcode-step"><span>1</span>打开微信<em></em><span>2</span>扫描下方二维码<em></em><span>3</span>完成支付</p>
+				<img class="wechatpay-main-qrcode-img" src="../../img/index/QR-code.jpg" alt="">
+				<p class="wechatpay-main-qrcode-tip"><i></i>微信支付<span>20</span>元</p>
+			</div>
+		</div>
+
+		<script>
+			var timeCounter = (function() {
+			var int;
+			var total = 3599;
+			return function(elemID) {
+				obj = document.getElementById(elemID);
+				var s = (total%60) < 10 ? ('0' + total%60) : total%60;
+				var h = total/3600 < 10 ? ('0' + parseInt(total/3600)) : parseInt(total/3600);
+				var m = (total-h*3600)/60 < 10 ? ('0' + parseInt((total-h*3600)/60)) : parseInt((total-h*3600)/60);
+				obj.innerHTML = m + ' : ' + s;
+				total--;
+				int = setTimeout("timeCounter('" + elemID + "')", 1000);
+				if(total < 0) clearTimeout(int);
+			}
+			})()
+		</script>
+	</body>
+</html>

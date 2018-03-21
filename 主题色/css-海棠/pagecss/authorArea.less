@@ -1,0 +1,902 @@
+@import '../templete/maincolor.less';
+
+
+// @titleColor:#1B2641 ;
+// @listColor: #7D879F  ;
+// @titleSize: 20px;
+// @boderColor:#e7e7e7;
+// @clickColor:#ff5c4d ; 
+// @color:#ff5c4d ;
+// 登录注册
+.authorloginRe{
+    padding-bottom: 100px;
+    .index-section{
+        margin-bottom: 10px;
+    }
+    .commonTitle{
+        border-bottom: 1px solid @boderColor;
+        padding-right: 20px;
+    }
+    .Prerelease{
+    //    padding-bottom: 20px;
+    }
+    .Notice{
+        background-color: #fff;
+        height: 302px;
+        .bookList{
+            margin-top: 20px;
+         
+            li{
+                margin-bottom:16.5px;
+                p{
+                    a{
+                        width:100%;
+                        color:@titleColor;
+                        &:hover{
+                            color:@color;
+                        }
+                    }
+                   
+                }
+                &:last-child{
+                    margin-bottom:20px;
+                }
+            }
+
+        }
+       
+    }
+    .onTheWay{
+        text-align: center;
+        padding: 50px 0  40px;
+    }
+
+    .loginBox{
+        width:100%;
+        height: 555px;
+        background: url(../../img/index/banner.png) no-repeat;
+        background-size:100% 100%;
+        margin-bottom:10px;
+        overflow: hidden;
+       
+        .loginRegister{
+            // width:435px;
+            height: 535px;
+            // float: right;
+            margin-right:50px;
+            // background-color: #fff ;
+            padding:20px 0 0;
+            .loregbtn{
+                // width:296px;
+                // margin:0 auto;
+                span{
+                    // display: inline-block;
+                    // width:50%;
+                    // height: 40px;
+                    // line-height: 40px;
+                    // font-size:20px;
+                    // text-align: center;
+                    // cursor: pointer;
+                }
+            }
+            .inputBox{
+              height: 455px;
+            //   position: relative;
+                .login-top{
+                    // width:296px;
+                    // margin:0 auto;
+                    // .tips{
+                    //     color:@color;
+                    //     margin-top:20px;
+                    //     span{
+                    //         display:inline-block;
+                    //         width:5px;
+                    //         height: 5px;
+                    //         background-color: @color;
+                    //         border-radius: 50%;
+                    //         vertical-align: middle;
+                    //         margin-right: 5px;
+                    //     }
+                    // }
+                    // form{
+                    //     input,button{
+                    //         width:296px;
+                    //         height: 50px;
+                    //         border:1px solid @boderColor;
+                           
+                    //         padding: 0 10px;
+                    //     }
+                    //     input{ color:@titleColor;font-size: 14px; margin-top:10px;}
+                    //     button{
+                    //         color:#fff;font-size:18px;
+                    //         background-color: @listColor;
+                           
+                    //         outline: none;
+                    //         cursor: pointer;
+                    //     }
+                    // }
+                    // .msg{
+                    //     font-size: 14px;
+                    //     color:@listColor;
+                    //     display: block;
+                    //     text-align: center;
+                    // }
+                }
+              
+                .Sign{
+                    display: block;
+                    height: 105px;
+                    width:100%;
+                    position:absolute;
+                    bottom:0;
+                    left:0;
+                    background-color:@color  ; 
+                    overflow: hidden;
+                    padding: 0 40px;
+                    img{
+                        height: 100%;
+                        float: left;
+                        position: relative;
+                    }
+                    .signRight{
+                        overflow: hidden;
+                        color:#fff;
+                        font-size: 14px;
+                        margin-top:15px;
+                        padding: 0 10px;
+                        .title{
+                            font-size: 20px;
+                        }
+                    }
+
+                }
+            }
+              // 登录
+            //   .login{
+            //       .submit{
+            //         margin:40px 0 10px;
+            //       }
+               
+            // }
+            // 注册
+            .register{
+                form{
+                    .VerificationCode{
+                        font-size: 12px;
+                        color:#29A3F1 ;
+                        margin-top:10px;
+                        input,span{
+                            display:inline-block;
+                            vertical-align:top;
+                        }
+                        input{width:100px;margin-top: 0;}
+                        span{
+                            height: 50px;
+                        }
+                        .code{
+                            margin:0 3px;
+                            img{
+                                width:96px;
+                                height:100%;
+                                
+                            }
+                        }
+                        .update{
+                            cursor: pointer;
+                            line-height: 50px;
+                        }
+                        .codeYes{
+                            padding-top: 13px;
+                            margin-left: 3px;
+                            float: right;
+                            img{
+                                width:24px;
+                                height:24px;
+                            }
+                           
+                        }
+                    }
+                    .submit{
+                        margin:20px 0 10px;
+                      }
+                }
+
+            }
+        }
+    }
+
+
+
+
+
+}
+
+.hasReading{
+    color:@listColor;
+    font-size: 14px;
+    label{
+        display:inline-block;
+		width:20px;
+		height: 20px;
+		vertical-align: middle;
+		margin:-3px 5px 0 0;
+		border:1px solid #c4c4c4;
+		border-radius: 50%;
+		cursor: pointer;
+    }
+    .yes{
+        background: url(../../img/index/read-icon-selected-sel.png) no-repeat;
+        background-size:100% 100%;
+    }
+}
+
+
+
+
+
+// 作者
+.authorArea{
+    .asideBar{
+        width:110px;
+    }
+    .common-section-title{
+        .tips{
+            font-size: 14px;
+            color:@listColor;
+            left: 10px;
+            padding-top:2px;
+        }
+    }
+    .common-section-left{
+        width:1075px;
+    }
+   
+}
+
+// 我的收入
+.myIncome{
+    .moneyStatistics{
+        position: relative;
+            .calendar{
+                width:238px;
+                height: 35px;
+                border:1px solid @listColor;
+                border-radius: 17px;
+                overflow: hidden;
+                position: absolute;
+                top:12px;
+                right: 20px;
+                p,span{display:inline-block}
+                .calendarInput{
+                    width:170px;
+                    height: 100%;
+                    cursor: pointer;
+                    input{
+                        width:165px;
+                        height: 100%;
+                        padding: 0 10px;
+                        border: none;
+                        outline: none;
+                       font-size: 14px;
+                    }
+                    .Wdate{
+                        background: url(../../img/index/author-icon-calendar.png) no-repeat right center;
+                        background-size:20px 20px;
+                    }
+                    img{
+                        width:25px;
+                        height: 25px;
+                        vertical-align: middle;
+                    }
+                }
+                .btn{
+                    width:65px;
+                    height: 100%;
+                    line-height: 32px;
+                    text-align: center;
+                    background-color: @titleColor;
+                    color:#fff;
+                    border-top-right-radius: 17px;
+                    border-bottom-right-radius: 17px;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #080808 ;
+                    }
+                }
+        }
+       
+    }
+    .totalMoney{
+        font-size: 18px;
+        text-align: right;
+        margin-top:30px;
+        padding-right: 20px;
+        span{
+            font-size: 30px;
+        }
+    }
+}
+
+table{
+    tr{
+        td{
+            color:@listColor;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+    }
+}
+// 作者信息
+.basicMessage{
+    .common-section-title{
+        span,i{display: inline-block;}
+        i{margin:0 20px;}
+        span{
+           cursor: pointer;
+        }
+    }
+    .message{
+      
+        .picture{
+            width:125px;
+            height: 125px;
+            position: relative;
+            cursor: pointer;
+            margin:30px auto 0;
+            img{
+                width:125px;
+                height: 125px;
+                border-radius: 50%;
+                position: absolute;
+                top:0;
+                left:0;
+            }
+            .change{
+                width:125px;
+                height: 125px;
+                border-radius: 50%;
+                position: absolute;
+                top:0;
+                left:0;
+                z-index: 1;
+                display: none;
+                .backbg{
+                    width:125px;
+                    height: 125px;
+                    position: absolute;
+                    top:0;
+                    left:0;
+                    border-radius: 50%;
+                    background-color:@titleColor;
+                    opacity: 0.6;
+                   
+                }
+                .backWord{
+                    width:125px;
+                    height: 125px;
+                    position: absolute;
+                    top:0;
+                    left:0;
+                    color:#fff;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 125px;
+                    z-index: 10;
+                }
+            }
+        }
+    }
+    .submit{
+        padding: 30px 190px;
+    }
+
+}
+
+
+
+ // 个人简介
+ .brief{
+    display: inline-block;
+    width:590px;
+    height: 130px;
+    border:1px solid @boderColor;
+    background-color: #E7E7E7 ;
+    padding: 10px;
+    margin-right: 0;
+    vertical-align: top;
+    textarea{
+        width: 100%;
+        display: block;
+        height: 90px;
+        background-color: #E7E7E7 ;
+        border:none;
+        resize: none;
+        outline: none;
+        color:@listColor;
+    }
+    i{
+        display: block;
+        text-align: right;
+        margin-top:5px;
+        em{
+            font-style: normal;
+        }
+    }
+}
+
+// 我写的书
+.blue{
+    color:#29A3F1 ;
+}
+.red{
+    color:@color
+}
+.myBook{
+    table{
+        th{ border-bottom:1px solid @boderColor;}
+        td{
+            border-bottom:1px solid @boderColor;
+        }
+    }
+
+
+}
+// 创建新书
+.ManagerBook{
+    .common-section-left{
+        padding: 0 30px;
+        .common-section-title{
+            padding-left: 0;
+            .pageMark{
+                margin:0;
+               span,i{display:inline-block}
+            }
+            .titleTab{
+                a{
+                    display: inline-block;
+                    height: 30px;
+                    line-height: 30px;
+                    padding: 0 10px;
+                    margin-top:20px;
+                }
+            }
+        }
+        .commom-description{
+            padding-top: 30px;
+            position: relative;
+            .NoPublish{
+                display: block;
+                width:240px;
+                height: 50px;
+                background-color: @titleColor;
+                opacity: 0.8;
+                color:#fff;
+                line-height: 50px;
+                text-align: center;
+                position: absolute;
+                top:300px;z-index: 100;
+            }
+            .des-right{
+                padding-left: 20px;
+            }
+            .largeImageSize{
+                width:240px;
+                height: 320px;
+            }
+            .bookLabel{
+                margin-bottom: 20px;
+                a{
+                    display: inline-block;
+                    background-color:@boderColor;
+                    margin-right: 10px;
+                    font-size: 12px;
+                    padding: 2px 5px;
+                    color:@listColor;
+                    border-radius: 4px;
+                }
+            }
+            .chBtn{
+                display: block;
+               
+                width:100px;
+                height:33px;
+                text-align: center;
+                line-height: 33px;
+                color:#fff;
+                background-color: @titleColor;
+                font-size: 16px;
+                outline: none;
+                border: none;
+                margin:30px 0;
+                cursor: pointer;
+            }
+            .Notice{
+                border-top:1px solid @boderColor;
+                padding-top: 30px;
+                font-size: 14px;
+                .brief{
+                    background-color: #fff;
+                    border:1px solid @boderColor;
+                    color:@listColor;
+                    height:90px;
+                    padding:5px 10px  10px;
+                }
+                textarea{
+                    background-color: #fff;
+                   height: 55px;
+                }
+
+            }
+            .submit{
+                padding: 30px 0;
+                button{
+                    margin-bottom:0;
+                }
+            }
+        }
+       
+       
+       
+    }
+    table{
+        tr{
+            th{
+               border-bottom: 1px solid @boderColor; 
+            }
+        }
+    }
+}
+
+.hasOperate{
+    td{
+        a{
+            display: inline-block;
+            width:80px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color:#fff;
+            border-radius: 4px;
+            margin:0 5px;
+            &:hover{
+                color:#fff;
+            }
+        }
+        .manger{
+            background-color: #29A3F1 ;
+        }
+        .creat{
+            background-color: @color;
+        }
+    }
+
+}
+
+
+.titleInit{
+    color:@listColor;
+    border-bottom: 3px solid transparent;  
+}
+.titleActive{
+    color:@titleColor;
+    border-bottom: 3px solid @titleColor;  
+}
+
+// 表单
+form{
+   ul{
+    li{
+        padding: 30px 190px;
+        font-size: 14px;
+        border-bottom:1px solid @boderColor;
+      
+        .title{
+            display: inline-block;
+            font-size: 16px;
+            color:@titleColor;
+            padding: 10px;
+            border-bottom: 2px solid @titleColor;
+        }
+        p{
+            margin: 25px 0;
+            label{
+                display: inline-block;
+                width:100px;
+                text-align: left;
+            }
+            input[type=text],input[type=password],select{
+                width:265px;
+                height: 37px;
+                border:1px solid @boderColor;
+                background-color: #E7E7E7 ;
+                padding: 0 10px;
+                color:@listColor;
+            }
+            select{
+                margin-left:-4px;
+                option{
+                    background-color: #fff ;
+                }
+            }
+            span{
+                margin-right: 50px;
+                input[type=radio]{
+                    vertical-align: middle;
+                }
+            }
+        }
+       
+        button{
+            margin-right: 30px;
+        }
+
+        // 修改密码
+        .tips{
+            display: block;
+            padding-left: 100px;
+        }
+    }
+   }
+  
+}
+
+
+
+// 密码可视
+.changePassword{
+    form{
+        .view{
+            position: relative;
+            input{
+                padding-right: 35px;
+            }
+            i{
+                display: block;
+                width:30px;
+                height: 37px;
+                position: absolute;
+                top:0;
+                left:330px;
+               cursor: pointer;
+            }
+        }
+        
+           
+       
+    }
+}
+
+
+.noView{
+    background: url(../../img/index/author-icon-eye-clo.png) no-repeat center center;
+    background-size:25px 13px;
+}
+.canView{
+    background: url(../../img/index/author-icon-eye.png) no-repeat center center;
+    background-size:25px 13px;
+}
+
+
+
+
+// 修改图像
+.pictureMask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+    .masking{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: @titleColor;
+        opacity: 0.6;
+        z-index: 15;
+    }
+}
+.changeMess{
+    position: absolute;
+    width:475px;
+    height: 475px;
+    border:1px solid @boderColor;
+    top:50%;
+    left:50%;
+    margin-top:-237px;
+    margin-left:-237px;
+    background-color: #fff;
+    z-index:20;
+    cursor: pointer;
+    .reloadup{
+        padding: 50px 50px 0;
+        .image{
+            span{display: inline-block}
+            .big{
+                width:218px;
+                height: 218px;
+                background-color: @listColor;
+                color:#fff;
+                img{
+                    width:100%;
+                    height: 100%;
+                }
+            }
+            .small{
+                width:124px;
+                height: 124px;
+                border-radius: 50%;
+                vertical-align: top;
+                margin-left: 25px;
+                background-color: @listColor;
+                img{
+                    width:100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .btnTips{
+            margin:22px 0 45px;
+            font-size: 14px;
+            span{margin-right: 20px;}
+        }
+    }
+}
+
+.submit{
+//   padding: 30px 190px;
+    button{
+        display:inline-block;
+        margin:10px 15px 100px 0;
+       
+    }
+}
+
+
+
+// 管理作品.修改信息
+.changeMessage{
+    .changeContent{
+        position: relative;
+        .bookCovering{
+            position: absolute;
+            top:45px;
+            right: 0;
+            img{
+                width:240px;
+                height: 320px;
+            }
+        }
+        form{
+            li{
+                padding:20px 0;
+            }
+            .shortDescribe{
+                .brief{
+                    height: 37px;
+                    padding: 0;
+                    overflow: hidden;
+                    .personalBrief{
+                        display: inline-block;
+                        width:500px;
+                        height: 37px;
+                        line-height: 37px;
+                        padding: 0 10px 0 5px;
+                      
+                        float:left;
+                    }
+                    i{
+                        display: inline-block;
+                        vertical-align:top;
+                        margin:15px 5px 0 0;
+                        float:right;
+                    }
+                }
+            }
+            .longDescribe{
+                .brief{
+                    height:250px;
+                    textarea{
+                        height: 200px;
+                    }
+                }
+               
+            }
+        }
+    }
+    .submit{
+        padding: 30px 0;
+    }
+    
+}
+
+
+
+// 上传图片
+.UploadCover{
+    label{
+         display: inline-block;
+        width:100px;
+    }
+   p{
+       display: inline-block;
+       vertical-align: top;
+       margin:0;
+   }
+   .coverImageBox{
+       width:160px;
+       height: 160px;
+       background-color: #E7E7E7 ;
+       position: relative;
+       text-align: center;
+       cursor: pointer;
+       span{
+           display: block;
+           margin:10px 10px;
+       }
+       .add{
+            margin-top:30px;
+            width:30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: @titleColor;
+            color:#fff ;
+            margin:30px auto 0;
+            line-height: 30px;
+            text-align: center;
+            font-size: 25px;
+        }
+       img{
+           width:100%;
+           height: 100%;
+       }
+   }
+   .arrow{
+       font-size: 50px;
+       margin:50px 20px 0;
+       color:@color;
+   }
+   
+
+}
+
+
+.cladanerIcon{
+    display: inline-block;
+    vertical-align: top;
+    width:20px;
+    height: 37px;
+    background: url(../../img/index/author-icon-calendar.png) no-repeat center center;
+    background-size:20px 20px;
+    margin-left: 3px;
+}
+
+
+
+.shortText{
+    .changeContent{
+        form{
+            .longDescribe{
+                .brief{
+                    height:100px;
+                    textarea{
+                        height: 60px;
+                    }
+                }
+               
+            }
+        }
+    }
+    
+}
+
+
+
+
+
+
+

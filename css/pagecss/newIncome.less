@@ -1,0 +1,195 @@
+@import '../templete/maincolor.less';
+table{
+    border-color:@boderColor ;
+}
+.newMyIncome{
+    .moneyStatistics{
+        position: relative;
+        .common-section-title{
+            a{
+                display: inline-block;
+                height: 60px;
+                line-height: 60px;
+            }
+            .tips{
+                margin-right: 15px;
+            }
+
+            
+        }
+        .newMyIncome-item{
+            padding: 25px;
+            min-height: 500px;
+        }
+        .calendar{
+                height: 35px;
+               margin:10px 0 20px;
+                overflow: hidden;
+               span{
+                   font-size: 14px;
+               }
+                p,span{display:inline-block}
+                .calendarInput{
+                    width:170px;
+                    height: 100%;
+                    cursor: pointer;
+                    border:1px solid @listColor;
+                    // border-radius: 17px;
+                    input{
+                        width:155px;
+                        height: 100%;
+                        padding: 0 10px;
+                        border: none;
+                        outline: none;
+                       font-size: 14px;
+                       padding-left: 40px;
+                    }
+                    .Wdate{
+                        background: url(../../img/index/author-icon-calendar.png) no-repeat right center;
+                        background-size:20px 20px;
+                    }
+                    img{
+                        width:25px;
+                        height: 25px;
+                        vertical-align: middle;
+                    }
+                }
+                .btn{
+                    width:65px;
+                    height:34px;
+                    line-height: 32px;
+                    text-align: center;
+                    background-color: @titleColor;
+                    color:#fff;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #080808 ;
+                    }
+                }
+        }
+        h2{
+            font-size: 16px;
+            font-weight: normal;
+            margin-bottom: 20px;
+            span,img{display: inline-block;vertical-align: middle;}
+            img{
+                width:20px;
+                height: 20px;
+                margin-right: 5px;
+            }
+        }
+        .bot-tip{
+            font-size: 15px;
+            color: @textcolor ;
+            margin-top: 20px;
+        }
+        table{
+            .classify{
+                td{
+                    color:#000 ;
+                }
+                 
+            }
+            .black{
+                font-weight: 600;
+                color:#000 ;
+            }
+            .red{
+                color:@color;
+            }
+        }
+      
+// 我的收入
+        .myEarning{
+            // 收入分布
+           
+            .IncomeDistribution{
+               margin-bottom: 25px;
+                .staticCharts{
+                    border:1px solid @boderColor ;
+                    width:100%;
+                    min-height: 550px;
+                    padding: 30px 20px;
+                    position: relative;
+                    .bottomNum{
+                        width:100%;
+                        height: 480px;
+                        position: absolute;
+                        top:50px;
+                        left:0;
+                        z-index: 5;
+                        text-align: center;
+                        padding-top: 190px;
+                        p{
+                            margin-bottom: 10px;
+                            span{
+                                font-size: 30px;
+                            }
+                        }
+                        .total{
+                            span{
+                                 color: #29A3F1 ;
+                            }
+                        }
+                        .local{
+                            span{
+                                color: #ff5c4d;
+                            }
+                        }
+                        
+                        
+                    }
+                    #eachart{
+                        width:100%;
+                        height: 480px;
+                        top:50px;
+                        left:0;
+                        position: absolute;
+                        z-index: 10;
+                    }
+                }
+
+            }
+            //  收入明细
+            .IncomeDetails{
+               
+            }
+        }
+// 作品明细
+        .DetailWorks{
+            select{
+                width:170px;
+                height: 34px;
+            }
+        }
+       
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
